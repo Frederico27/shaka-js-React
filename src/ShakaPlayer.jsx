@@ -27,10 +27,14 @@ const ShakaPlayer = ({ src, drmLicenseUrl, drmKeySystem = 'com.widevine.alpha' }
           [drmKeySystem]: drmLicenseUrl,
         },
         clearKeys: {
-            'd84c325f36814f39bbe59080272b10c3' : '550727de4c96ef1ecff874905493580f'
+            'd84c325f36814f39bbe59080272b10c3' : '550727de4c96ef1ecff874905493580f',
+            '0c900a7eae0097e0977141b68c9bffc4' : 'fa534e6d48eccf905a449051a5e280c8',
+            '44dd9cd370b08a868ead115fe84ecfde' : 'bff19ab0a51cf14e848389b152913fd0',
+            '78ab64fa90f137a697743b5dc27b2f96' : 'de4d31c7fc6005ede28abab2a0720a9f'
           }
       },
     });
+    
 
     player.load(src)
       .then(() => {
@@ -84,8 +88,8 @@ const ShakaPlayer = ({ src, drmLicenseUrl, drmKeySystem = 'com.widevine.alpha' }
         style={{ 
           display: 'block',
           margin: '0 auto',
-          width: '640px',
-          maxWidth: '640px'
+          width: '100%',
+          maxWidth: '100%'
         }}
       />
       <div style={{ textAlign: 'center', marginTop: '10px' }}>
