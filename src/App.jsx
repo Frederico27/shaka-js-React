@@ -11,8 +11,8 @@ function App() {
         Jogu Futebol ne'ebe Live iha <span className="text-blue-400">Ailok TV ⚽</span>
         </h1>
         <p className="text-lg sm:text-xl text-gray-300 max-w-2xl mx-auto">
-          Bele Asiste husi <span className="text-yellow-400 font-semibold">laptop</span>, 
-          <span className="text-green-400 font-semibold"> telfone</span> (uza Chrome), 
+          Bele Asiste husi <span className="text-yellow-400 font-semibold">Laptop</span>, 
+          <span className="text-green-400 font-semibold"> Telefone</span> (uza Chrome), 
           <span className="text-blue-400 font-semibold"> Televizaun Android</span> nst!
         </p>
       </div>
