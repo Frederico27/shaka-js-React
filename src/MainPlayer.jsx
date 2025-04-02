@@ -8,6 +8,17 @@ function MainPlayer() {
   const navigate = useNavigate();
   const { videoSrc, drmLicenseUrl, title, subtitle } = location.state || {}; // Prevent errors
 
+  // Function to check if the video source is a YouTube link
+  const isYouTubeLink = (url) => {
+    return /(?:youtube\.com\/(?:[^\/]+\/.*|(?:v|e(?:mbed)?)\/|.*[?&]v=)|youtu\.be\/)([^"&?/ ]{11})/.test(url);
+  };
+
+  // Extract YouTube video ID from the URL
+  const getYouTubeID = (url) => {
+    const match = url.match(/(?:youtube\.com\/(?:[^\/]+\/.*|(?:v|e(?:mbed)?)\/|.*[?&]v=)|youtu\.be\/)([^"&?/ ]{11})/);
+    return match ? match[1] : null;
+  };
+
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-900 text-white p-6">
       <h1 className="text-3xl font-bold mb-2 text-center">{title}</h1>
@@ -15,7 +26,20 @@ function MainPlayer() {
 
       {videoSrc ? (
         <div className="w-full max-w-4xl">
-          <ShakaPlayer src={videoSrc} drmLicenseUrl={drmLicenseUrl} />
+          {isYouTubeLink(videoSrc) ? (
+            <div className="aspect-w-16 aspect-h-9">
+              <iframe
+                className="w-full h-[515px]"
+                src={`https://www.youtube.com/embed/${getYouTubeID(videoSrc)}`}
+                title="YouTube video player"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              ></iframe>
+            </div>
+          ) : (
+            <ShakaPlayer src={videoSrc} drmLicenseUrl={drmLicenseUrl} />
+          )}
         </div>
       ) : (
         <p className="text-red-500 text-lg font-semibold">No video source available</p>
