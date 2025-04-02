@@ -8,7 +8,7 @@ function Footer() {
           © {new Date().getFullYear()} Ailok TV.
         </p>
         <p className="text-sm mt-2">
-          Halo ho Domin ❤️ husi <span className="font-semibold">Forsat Rmcf</span>
+          Halo ho Domin ❤️ husi <span className="font-semibold">Fredi Rmcf</span>
         </p>
       </div>
     </footer>

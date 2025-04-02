@@ -22,7 +22,7 @@ function App() {
           title="Atletico Madrid vs Barcelona"
           oras={"Kick off 04:30 OTL"}
           tumbnail={"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6DnrTmv8U0tbue2HRPaHuLlmOdQ_fcNAsfg&s"}
-          videoSrc="https://ssc-1-enc.edgenextcdn.net/out/v1/c696e4819b55414388a1a487e8a45ca1/index.mpd" 
+          videoSrc="https://proji.glitch.me/https://ssc-extra-1-enc.edgenextcdn.net/out/v1/647c58693f1d46af92bd7e69f17912cb/index.mpd" 
           drmLicenseUrl="https://real-madrid-drm-url"
           subtitle={"Hala Madrid! Hein ami iha final 🤍."}
         />
