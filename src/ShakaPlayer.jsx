@@ -32,6 +32,9 @@ const ShakaPlayer = ({ src, drmLicenseUrl, drmKeySystem = 'com.widevine.alpha' }
             '44dd9cd370b08a868ead115fe84ecfde' : 'bff19ab0a51cf14e848389b152913fd0',
             '78ab64fa90f137a697743b5dc27b2f96' : 'de4d31c7fc6005ede28abab2a0720a9f',
             'ecbc9e6fe6b145efb6658fb5cf7427f8' : '03c17e28911f71221acbc0b11f900401',
+            '002046c9a49b9ab1cdb6616bec5d26c3' : 'd2f92f6b7edc9a1a05d393ba0c20ef9e',
+            '9afd72f20573001c23672d2158892a5f' : '9bc32df48a2efac30072b7e5c683bcd1',
+            'eb5a3a48f3e191a00e3ac1e2d470c491' : '2c8b7198563527e524d66628c092ef1f',
           }
       },
     });

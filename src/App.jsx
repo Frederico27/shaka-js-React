@@ -23,10 +23,51 @@ function App() {
 
         <Card 
             title="Chelsea vs Tottenham" 
-            oras={"Kick off 04:00 OTL"}
+            oras={"Kick off 04:00 OTL | Komentariu Inglês"}
+            tumbnail={"https://imgsrv2.voi.id/cu-esTjgIZ7OrjtPLaPldEPPZ8DS_WYmc5iAG66x1x8/auto/1200/675/sm/1/bG9jYWw6Ly8vcHVibGlzaGVycy80NzMwNjIvMjAyNTA0MDIxMDQ2LW1haW4uY3JvcHBlZF8xNzQzNTY1NTkyLmpwZWc.jpg"}
+            videoSrc="https://fsly.stream.peacocktv.com/Content/CMAF_CTR-4s/Live/channel(vc1021n07j)/master.mpd" 
+            drmLicenseUrl="https://real-madrid-drm-url"
+        />
+
+        <Card 
+            title="Chelsea vs Tottenham" 
+            oras={"Kick off 04:00 OTL | Komentariu Espanha"}
             tumbnail={"https://imgsrv2.voi.id/cu-esTjgIZ7OrjtPLaPldEPPZ8DS_WYmc5iAG66x1x8/auto/1200/675/sm/1/bG9jYWw6Ly8vcHVibGlzaGVycy80NzMwNjIvMjAyNTA0MDIxMDQ2LW1haW4uY3JvcHBlZF8xNzQzNTY1NTkyLmpwZWc.jpg"}
             videoSrc="https://a151aivottlinear-a.akamaihd.net/OTTB/pdx-nitro/live/clients/dash/enc/bmnelo5c7a/out/v1/3ce2cdc4589f46189322bd3717c77957/cenc.mpd" 
             drmLicenseUrl="https://real-madrid-drm-url"
+        />
+
+
+        <Card 
+              title="Live Liga Inglesa" 
+              oras={"Kanal Foka ba Jogu Liga Inglesa Sira"}
+              tumbnail={"https://yt3.googleusercontent.com/zhPMOpUIlmMa_xAgrHYGYrkCSWS-3tE0yPPKVUzh1iiYOF1QDqGtg3ZIbWXjkNmN3l3WPqziRHE=s900-c-k-c0x00ffffff-no-rj"}
+              videoSrc="https://fsly.stream.peacocktv.com/Content/CMAF_CTR-4s/Live/channel(vc1021n07j)/master.mpd" 
+              drmLicenseUrl="https://real-madrid-drm-url"
+        />
+
+        <Card 
+              title="Live Liga Espanha" 
+              oras={"Kanal Foka ba Jogu Liga Espanha Sira"}
+              tumbnail={"https://logowik.com/content/uploads/images/laliga-2023-2024-new3252.logowik.com.webp"}
+              videoSrc="https://otte.live.fly.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/6fbnr3ei4b/out/v1/57d2ae96a4cc4230881cd801b389edf6/cenc.mpd" 
+              drmLicenseUrl="https://real-madrid-drm-url"
+        />
+
+        <Card 
+              title="Live Liga Alemanha" 
+              oras={"Kanal Foka ba Jogu Liga Alemanha Sira"}
+              tumbnail={"https://www.idman.biz/media/2024/07/16/1920x1280/bundesliga.webp?v=1721130454"}
+              videoSrc="https://aivottlinear-a.akamaihd.net/OTTE/DUB/live/dash/enc/k2dcwnlpgr/out/v1/0502dc73a24b43a79c042bf2d14f6b84/cenc.mpd" 
+              drmLicenseUrl="https://real-madrid-drm-url"
+        />
+
+        <Card 
+              title="Live Liga Italia" 
+              oras={"Kanal Foka ba Jogu Liga Italia Sira"}
+              tumbnail={"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Serie_A_logo_2022.svg/1200px-Serie_A_logo_2022.svg.png"}
+              videoSrc="https://uselector.cdn.intigral-ott.net/ADSP1/ADSP1.isml/manifest.mpd" 
+              drmLicenseUrl="https://real-madrid-drm-url"
         />
 
         <Card
