@@ -19,6 +19,16 @@ function App() {
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-4 mt-3">
         
+        {/* Card goes Here */}
+
+        <Card 
+            title="Chelsea vs Tottenham" 
+            oras={"Kick off 04:00 OTL"}
+            tumbnail={"https://imgsrv2.voi.id/cu-esTjgIZ7OrjtPLaPldEPPZ8DS_WYmc5iAG66x1x8/auto/1200/675/sm/1/bG9jYWw6Ly8vcHVibGlzaGVycy80NzMwNjIvMjAyNTA0MDIxMDQ2LW1haW4uY3JvcHBlZF8xNzQzNTY1NTkyLmpwZWc.jpg"}
+            videoSrc="https://a151aivottlinear-a.akamaihd.net/OTTB/pdx-nitro/live/clients/dash/enc/bmnelo5c7a/out/v1/3ce2cdc4589f46189322bd3717c77957/cenc.mpd" 
+            drmLicenseUrl="https://real-madrid-drm-url"
+        />
+
         <Card
           title="Liga Champions Epoka 24/25"
           oras={"Komesa Semana Oin"}
@@ -27,7 +37,7 @@ function App() {
           drmLicenseUrl="https://real-madrid-drm-url"
           subtitle={"Quarter Finals"}
         />
-
+                
       </div>
 
       <Footer />

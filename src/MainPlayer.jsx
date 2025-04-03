@@ -29,7 +29,7 @@ function MainPlayer() {
           {isYouTubeLink(videoSrc) ? (
             <div className="aspect-w-16 aspect-h-9">
               <iframe
-                className="w-full h-[515px]"
+                className="w-full h-[450px]"
                 src={`https://www.youtube.com/embed/${getYouTubeID(videoSrc)}`}
                 title="YouTube video player"
                 frameBorder="0"
