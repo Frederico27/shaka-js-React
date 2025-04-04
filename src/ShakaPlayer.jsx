@@ -1,5 +1,4 @@
 import React, { useEffect, useRef, useState } from 'react';
-import shaka from 'shaka-player';
 
 const ShakaPlayer = ({ src, drmLicenseUrl, drmKeySystem = 'com.widevine.alpha' }) => {
   const videoRef = useRef(null);
