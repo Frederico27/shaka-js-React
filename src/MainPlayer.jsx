@@ -54,7 +54,7 @@ function MainPlayer() {
 
       <h3
         className="text-center text-gray-400 text-sm mb-3"
-        style={{ maxWidth: "600px", margin: "0 auto" }}>
+        style={{ maxWidth: "600px", margin: "0 auto", marginBottom: "20px" }}>
         Atu muda kualidade video karik Butaun Resolution agora iha ona player nia laran ho icon ⚙️
       </h3>
 
