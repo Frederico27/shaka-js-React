@@ -10,7 +10,6 @@ const ShakaPlayer = ({ src, drmLicenseUrl, drmKeySystem = 'com.widevine.alpha' }
   useEffect(() => {
     if (!shaka.Player.isBrowserSupported()) {
       console.error('Browser not supported by Shaka Player!');
-      alert('Browser not supported by Shaka Player! Please use a compatible browser.');
       return;
     }
 
@@ -38,8 +37,11 @@ const ShakaPlayer = ({ src, drmLicenseUrl, drmKeySystem = 'com.widevine.alpha' }
             'eb5a3a48f3e191a00e3ac1e2d470c491' : '2c8b7198563527e524d66628c092ef1f',
           }
       },
-      streaming: {
+      streaming : {
         autoPlay: true,
+      },
+      abr: {
+        enabled: true,
       }
     });
     
