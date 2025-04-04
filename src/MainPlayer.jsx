@@ -47,10 +47,17 @@ function MainPlayer() {
 
       <button
         onClick={() => navigate(-1)}
-        className="mt-6 bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-lg transition"
+        className="mt-6 mb-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-lg transition"
       >
         ← Fila
       </button>
+
+      <h3
+        className="text-center text-gray-400 text-sm"
+        style={{ maxWidth: "600px", margin: "0 auto" }}>
+        Atu muda kualidade video karik Butaun Resolution agora iha ona player nia laran ho icon ⚙️
+      </h3>
+
     </div>
   );
 }
