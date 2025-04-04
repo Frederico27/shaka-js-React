@@ -9,8 +9,11 @@ const ShakaPlayer = ({ src, drmLicenseUrl, drmKeySystem = 'com.widevine.alpha' }
     // Ensure Shaka Player and browser compatibility
     if (!shaka.Player.isBrowserSupported()) {
       console.error('Browser not supported by Shaka Player!');
+      shaka.polyfill.installAll();
       return;
     }
+
+    shaka.polyfill.installAll();
 
     const video = videoRef.current;
     const player = new shaka.Player(video);
@@ -55,21 +58,15 @@ const ShakaPlayer = ({ src, drmLicenseUrl, drmKeySystem = 'com.widevine.alpha' }
           '002046c9a49b9ab1cdb6616bec5d26c3': 'd2f92f6b7edc9a1a05d393ba0c20ef9e',
           '9afd72f20573001c23672d2158892a5f': '9bc32df48a2efac30072b7e5c683bcd1',
           'eb5a3a48f3e191a00e3ac1e2d470c491': '2c8b7198563527e524d66628c092ef1f',
+          '7eea72d6075245a99ee3255603d58853': '6848ef60575579bf4d415db1032153ed',
+          '43d1c3b25207ff38b22ccfe17d302367': '7b1f85f6e81059473b114c16a25c829a',
         },
-      },
-      streaming: {
-        autoPlay: true,
-        jumpLargeGaps: true,
       },
       abr: {
         enabled: true, // Enable adaptive bitrate by default
       },
     });
 
-    // Error handling
-    player.addEventListener('error', (event) => {
-      console.error('Error code', event.detail.code, 'object', event.detail);
-    });
 
     // Load the video
     player.load(src)

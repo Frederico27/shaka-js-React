@@ -1,7 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 
-function Card({title, videoSrc, drmLicenseUrl, subtitle, oras, tumbnail}) {
+function Card({title, videoSrc, drmLicenseUrl, subtitle, oras, loron, tumbnail}) {
   const navigate = useNavigate();
 
   const handleClick = () => {
@@ -30,7 +30,15 @@ function Card({title, videoSrc, drmLicenseUrl, subtitle, oras, tumbnail}) {
       <h2 className="text-lg sm:text-xl font-semibold text-gray-800 mb-2">
         {title}
       </h2>
-      <h1 className="text-sm font-semibold text-gray-800 mb-2">
+
+
+      {loron && (
+        <h1 className="text-sm font-semibold text-gray-800 mb-2">
+      {loron}
+      </h1>
+      )}
+
+      <h1 className="text-sm text-center font-semibold text-gray-800 mb-2">
         {oras}
       </h1>
       <p className="text-gray-600 text-center text-sm sm:text-base">
