@@ -7,9 +7,6 @@ const ShakaPlayer = ({ src, drmLicenseUrl, drmKeySystem = 'com.widevine.alpha' }
   const [resolutions, setResolutions] = useState([]);
   const [selectedResolution, setSelectedResolution] = useState(null);
 
-  // Install polyfills if needed (e.g., for older browsers)
-  shaka.polyfill.installAll();
-
   useEffect(() => {
     if (!shaka.Player.isBrowserSupported()) {
       console.error('Browser not supported by Shaka Player!');
