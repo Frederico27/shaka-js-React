@@ -23,9 +23,7 @@ const ShakaPlayer = ({ src, drmLicenseUrl, drmKeySystem = 'com.widevine.alpha' }
 
     player.configure({
       drm: {
-        servers: {
-          [drmKeySystem]: drmLicenseUrl,
-        },
+
         clearKeys: {
            
             '9afd72f20573001c23672d2158892a5f' : '9bc32df48a2efac30072b7e5c683bcd1',
