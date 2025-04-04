@@ -42,7 +42,12 @@ const ShakaPlayer = ({ src, drmLicenseUrl, drmKeySystem = 'com.widevine.alpha' }
       },
       streaming : {
         autoPlay: true,
-        jumpLargeGaps: true, // Allow jumping large gaps in the stream
+        retryParameters: {
+          maxAttempts: 5,
+          baseDelay: 1000, // milliseconds
+          backoffFactor: 2.0,
+          timeout: 30000 // milliseconds
+        }
       },
       abr: {
         enabled: true,
