@@ -42,9 +42,8 @@ const ShakaPlayer = ({ src, drmLicenseUrl, drmKeySystem = 'com.widevine.alpha' }
       },
       streaming : {
         autoPlay: true,
-        jumpLargeGaps: true, // Allow jumping large gaps in the stream
-        // bufferingGoal: 30, // Buffering goal in seconds
-        // rebufferingGoal: 15, // Rebuffering goal in seconds
+        bufferingGoal: 5, // Buffering goal in seconds
+        rebufferingGoal: 1, // Rebuffering goal in seconds
       },
       abr: {
         enabled: true,
