@@ -58,6 +58,12 @@ function MainPlayer() {
         Atu muda kualidade video karik Butaun Resolution agora iha ona player nia laran ho icon ⚙️
       </h3>
 
+<h3
+        className="text-center text-gray-400 text-sm"
+        style={{ maxWidth: "600px", margin: "0 auto" }}>
+        Karik video streaming la komesa automatikamente hanehan icon ▶️ hodi play video streaming 
+      </h3>
+
     </div>
   );
 }
