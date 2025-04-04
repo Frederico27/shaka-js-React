@@ -7,6 +7,9 @@ const ShakaPlayer = ({ src, drmLicenseUrl, drmKeySystem = 'com.widevine.alpha' }
   const [resolutions, setResolutions] = useState([]);
   const [selectedResolution, setSelectedResolution] = useState(null);
 
+  // Install polyfills if needed (e.g., for older browsers)
+  shaka.polyfill.installAll();
+
   useEffect(() => {
     if (!shaka.Player.isBrowserSupported()) {
       console.error('Browser not supported by Shaka Player!');
@@ -23,25 +26,9 @@ const ShakaPlayer = ({ src, drmLicenseUrl, drmKeySystem = 'com.widevine.alpha' }
 
     player.configure({
       drm: {
-        autoPlay: true,
-        retryParameters : {
-          "backoffFactor": 2,
-          "baseDelay": 400,
-          "fuzzFactor": 0,
-          "maxAttempts": 4,
-          "timeout": 10000
-      },
         servers: {
           [drmKeySystem]: drmLicenseUrl,
         },
-      "manifest": {
-    "retryParameters": {
-        "backoffFactor": 2,
-        "baseDelay": 400,
-        "fuzzFactor": 0,
-        "maxAttempts": 4,
-        "timeout": 10000
-    },
         clearKeys: {
             'd84c325f36814f39bbe59080272b10c3' : '550727de4c96ef1ecff874905493580f',
             '0c900a7eae0097e0977141b68c9bffc4' : 'fa534e6d48eccf905a449051a5e280c8',
@@ -55,23 +42,13 @@ const ShakaPlayer = ({ src, drmLicenseUrl, drmKeySystem = 'com.widevine.alpha' }
       },
       streaming : {
         autoPlay: true,
-        "bufferBehind": 30,
-        "bufferingGoal": 10,
-        "jumpLargeGaps": false, 
-        "smallGapLimit": 6,
-        "rebufferingGoal": 2,
-        "retryParameters": {
-            "backoffFactor": 2,
-            "baseDelay": 400,
-            "fuzzFactor": 0,
-            "maxAttempts": 4,
-            "timeout": 10000
+        jumpLargeGaps: true, // Allow jumping large gaps in the stream
+        // bufferingGoal: 30, // Buffering goal in seconds
+        // rebufferingGoal: 15, // Rebuffering goal in seconds
       },
-    },
       abr: {
         enabled: true,
       }
-    }
     });
     
 
