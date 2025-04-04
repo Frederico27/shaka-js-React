@@ -21,7 +21,7 @@ function App() {
         
         {/* Card goes Here */}
 
-        <Card 
+        {/* <Card 
             title="Chelsea vs Tottenham" 
             oras={"Kick off 04:00 OTL | Komentariu Inglês"}
             tumbnail={"https://imgsrv2.voi.id/cu-esTjgIZ7OrjtPLaPldEPPZ8DS_WYmc5iAG66x1x8/auto/1200/675/sm/1/bG9jYWw6Ly8vcHVibGlzaGVycy80NzMwNjIvMjAyNTA0MDIxMDQ2LW1haW4uY3JvcHBlZF8xNzQzNTY1NTkyLmpwZWc.jpg"}
@@ -44,7 +44,7 @@ function App() {
               tumbnail={"https://yt3.googleusercontent.com/zhPMOpUIlmMa_xAgrHYGYrkCSWS-3tE0yPPKVUzh1iiYOF1QDqGtg3ZIbWXjkNmN3l3WPqziRHE=s900-c-k-c0x00ffffff-no-rj"}
               videoSrc="https://fsly.stream.peacocktv.com/Content/CMAF_CTR-4s/Live/channel(vc1021n07j)/master.mpd" 
               drmLicenseUrl="https://real-madrid-drm-url"
-        />
+        /> */}
 
         <Card 
               title="Live Liga Espanha" 
@@ -53,7 +53,7 @@ function App() {
               videoSrc="https://otte.live.fly.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/6fbnr3ei4b/out/v1/57d2ae96a4cc4230881cd801b389edf6/cenc.mpd" 
               drmLicenseUrl="https://real-madrid-drm-url"
         />
-
+{/* 
         <Card 
               title="Live Liga Alemanha" 
               oras={"Kanal Foka ba Jogu Liga Alemanha Sira"}
@@ -68,7 +68,7 @@ function App() {
               tumbnail={"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Serie_A_logo_2022.svg/1200px-Serie_A_logo_2022.svg.png"}
               videoSrc="https://uselector.cdn.intigral-ott.net/ADSP1/ADSP1.isml/manifest.mpd" 
               drmLicenseUrl="https://real-madrid-drm-url"
-        />
+        /> */}
 
         <Card
           title="Liga Champions Epoka 24/25"
