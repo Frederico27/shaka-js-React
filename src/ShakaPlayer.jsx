@@ -43,6 +43,13 @@ const ShakaPlayer = ({ src, drmLicenseUrl, drmKeySystem = 'com.widevine.alpha' }
     };
     ui.configure(uiConfig);
 
+player.addEventListener('trackschanged', () => {
+  if (player.isLive()) {
+    const liveEdge = player.seekRange().end;
+    player.seek(liveEdge);
+  }
+});
+
     // Player configuration
     player.configure({
       drm: {
@@ -64,6 +71,7 @@ const ShakaPlayer = ({ src, drmLicenseUrl, drmKeySystem = 'com.widevine.alpha' }
       },
       streaming : {
         lowLatencyMode: true,
+        jumpLargeGaps: true,
         liveCatchUp: {
           enabled: true,
           playbackRate: 1.05,
@@ -102,6 +110,8 @@ const ShakaPlayer = ({ src, drmLicenseUrl, drmKeySystem = 'com.widevine.alpha' }
       <video
         ref={videoRef}
         autoPlay
+        muted
+        playsinline
         style={{
           display: 'block',
           margin: '0 auto',
