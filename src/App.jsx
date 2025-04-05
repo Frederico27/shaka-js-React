@@ -22,34 +22,6 @@ function App() {
         {/* Card goes Here */}
 
         <Card 
-            title="Al Hilal vs Al Nassr" 
-            loron={'5 Abril 2025'}
-            oras={"Kick off 03:00 OTL | Komentariu Inglês"}
-            tumbnail={"https://assets.khelnow.com/news/uploads/2025/04/Al-Hilal-v-Al-Nassr.jpg"}
-            videoSrc="https://qp-pldt-live-grp-13-prod.akamaized.net/out/u/dr_spotv2hd.mpd" 
-            drmLicenseUrl="https://real-madrid-drm-url"
-        />
-
-        <Card 
-            title="Al Hilal vs Al Nassr" 
-            loron={'5 Abril 2025'}
-            oras={"Kick off 03:00 OTL | Komentariu Arabia"}
-            tumbnail={"https://assets.khelnow.com/news/uploads/2025/04/Al-Hilal-v-Al-Nassr.jpg"}
-            videoSrc="https://ssc-1-enc.edgenextcdn.net/out/v1/c696e4819b55414388a1a487e8a45ca1/index.mpd" 
-            drmLicenseUrl="https://real-madrid-drm-url"
-        />
-
-
-        <Card 
-            title="Augsburg vs Bayern Munich" 
-            loron={'5 Abril 2025'}
-            oras={"Kick off 03:30 OTL | Komentariu Ingles"}
-            tumbnail={"https://mrfixitstips.co.uk/app/uploads/2025/04/Augsburg-v-Bayern-Munich.jpg"}
-            videoSrc="https://otte.live.fly.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/6fbnr3ei4b/out/v1/57d2ae96a4cc4230881cd801b389edf6/cenc.mpd" 
-            drmLicenseUrl="https://real-madrid-drm-url"
-        />
-
-        <Card 
             title="Everton vs Arsenal" 
             loron={'5 Abril 2025'}
             oras={"Kick off 20:30 OTL | Komentariu Espanha"}
