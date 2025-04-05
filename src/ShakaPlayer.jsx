@@ -82,7 +82,7 @@ const ShakaPlayer = ({ src, drmLicenseUrl, drmKeySystem = 'com.widevine.alpha' }
     player.load(src)
       .then(() => {
 
-      player.seekRange().end;
+      const liveEdge = player.seekRange().end;
       player.seek(liveEdge);
 
         console.log('The video has been loaded successfully!');
