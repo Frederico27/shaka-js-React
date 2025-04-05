@@ -70,8 +70,8 @@ const ShakaPlayer = ({ src, drmLicenseUrl, drmKeySystem = 'com.widevine.alpha' }
           maxDrift: 1,
           minDrift: 0.2,
        },
-        bufferingGoal: 6,
-        rebufferingGoal: 3,
+        bufferingGoal: 10,
+        rebufferingGoal: 5,
         presentationDelay: 1,
       }
     });
