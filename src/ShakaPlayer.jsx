@@ -105,12 +105,6 @@ player.addEventListener('trackschanged', () => {
     };
   }, [src, drmLicenseUrl, drmKeySystem]);
 
-document.body.addEventListener('click', function enableSoundOnce() {
-  video.muted = false;
-  video.play();
-  document.body.removeEventListener('click', enableSoundOnce); // only run once
-});
-
   return (
     <div style={{ width: '100%', maxWidth: '100%' }}>
       <video
