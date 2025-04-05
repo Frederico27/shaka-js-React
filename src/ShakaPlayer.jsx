@@ -110,6 +110,7 @@ player.addEventListener('trackschanged', () => {
       <video
         ref={videoRef}
         autoPlay
+        muted
         playsinline
         style={{
           display: 'block',
