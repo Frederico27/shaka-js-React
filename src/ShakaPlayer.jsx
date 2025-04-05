@@ -43,13 +43,6 @@ const ShakaPlayer = ({ src, drmLicenseUrl, drmKeySystem = 'com.widevine.alpha' }
     };
     ui.configure(uiConfig);
 
-player.addEventListener('trackschanged', () => {
-  if (player.isLive()) {
-    const liveEdge = player.seekRange().end;
-    player.seek(liveEdge);
-  }
-});
-
     // Player configuration
     player.configure({
       drm: {
@@ -88,6 +81,12 @@ player.addEventListener('trackschanged', () => {
     // Load the video
     player.load(src)
       .then(() => {
+
+       if (player.isLive()) {
+      const liveEdge = player.seekRange().end;
+      player.seek(liveEdge);
+    }
+
         console.log('The video has been loaded successfully!');
       })
       .catch((error) => {
