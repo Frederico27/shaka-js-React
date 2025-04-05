@@ -31,6 +31,7 @@ const ShakaPlayer = ({ src, drmLicenseUrl, drmKeySystem = 'com.widevine.alpha' }
         'volume',
         'fullscreen',
         'quality', // Adds the quality control button to the main control panel
+        'language',
       ],
       overflowMenuButtons: [
         'captions',
