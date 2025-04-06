@@ -63,7 +63,6 @@ const ShakaPlayer = ({ src, drmLicenseUrl, drmKeySystem = 'com.widevine.alpha' }
       },
       streaming : {
         lowLatencyMode: true,
-        jumpLargeGaps: true,
         liveCatchUp: {
           enabled: true,
           playbackRate: 1.05,
@@ -80,8 +79,6 @@ const ShakaPlayer = ({ src, drmLicenseUrl, drmKeySystem = 'com.widevine.alpha' }
     // Load the video
     player.load(src)
       .then(() => {
-
-        player.seekRange(0,0);
 
         console.log('The video has been loaded successfully!');
       })
