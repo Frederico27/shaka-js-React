@@ -27,7 +27,7 @@ function Card({title, videoSrc, drmLicenseUrl, subtitle, oras, loron, tumbnail})
         alt="Logo" 
         className="w-full h-auto max-h-40 object-contain mb-4"
       />
-      <h2 className="text-lg sm:text-xl font-semibold text-gray-800 mb-2">
+      <h2 className="text-center text-lg sm:text-xl font-semibold text-gray-800 mb-2">
         {title}
       </h2>
 
