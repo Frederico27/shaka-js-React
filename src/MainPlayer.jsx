@@ -61,7 +61,7 @@ function MainPlayer() {
       <h3
         className="text-center text-gray-400 text-sm"
         style={{ maxWidth: "600px", margin: "0 auto" }}>
-        Karik video streaming la komesa automatikamente hanehan icon ▶️ hodi play video streaming 
+        Karik video streaming la komesa automatikamente hanehan icon numeru minutu (ex:  -50:00) iha video laran hodi hahu video streaming 
       </h3>
 
     </div>
