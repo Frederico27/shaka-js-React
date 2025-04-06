@@ -62,7 +62,6 @@ const ShakaPlayer = ({ src, drmLicenseUrl, drmKeySystem = 'com.widevine.alpha' }
         },
       },
       streaming : {
-        lowLatencyMode: true,
         liveCatchUp: {
           enabled: true,
           playbackRate: 1.05,
