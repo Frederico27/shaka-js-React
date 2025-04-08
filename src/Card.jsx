@@ -1,7 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 
-function Card({title, videoSrc, drmLicenseUrl, subtitle, oras, loron, tumbnail}) {
+function Card({title, videoSrc, drmLicenseUrl, nsurl, subtitle, oras, loron, tumbnail}) {
   const navigate = useNavigate();
 
   const handleClick = () => {
@@ -9,6 +9,7 @@ function Card({title, videoSrc, drmLicenseUrl, subtitle, oras, loron, tumbnail})
       state: {
         videoSrc,
         drmLicenseUrl,
+        nsurl,
         title,
         subtitle,
       }

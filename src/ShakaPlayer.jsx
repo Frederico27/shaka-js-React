@@ -61,12 +61,14 @@ const ShakaPlayer = ({ src, drmLicenseUrl, drmKeySystem = 'com.widevine.alpha' }
           '43d1c3b25207ff38b22ccfe17d302367':'7b1f85f6e81059473b114c16a25c829a',
           '333962e3e1383529867a9a0e28a5e5d1':'5d3fcbed53749ee622ed0e64f31c1cbf',
           '0eab5a3f3e3b4ba5d42d40ca30d17571':'f3f061ded9b70e8160590d5802ecda6d',
+          '0045a118e231f1326bcdb45350b1ceaa':'8c13afbfa54ea37a368b8b859021f6e3',
+          'd8d0506523d95fc082d6caef60e84979':'69992fd2d7b9211d41ecc2243803e87c',
+          'ae26845bd33038a9c0774a0981007294':'63ac662dde310cfb4cc6f9b43b34196d',
         },
       },
       streaming : {
         bufferingGoal: 4,
         rebufferingGoal: 2,
-        presentationDelay: 1,
       }
     });
 

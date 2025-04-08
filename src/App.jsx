@@ -15,6 +15,9 @@ function App() {
           <span className="text-green-400 font-semibold"> Telefone</span> (uza Chrome), 
           <span className="text-blue-400 font-semibold"> Televizaun Android</span> nst!
         </p>
+        <br></br>
+        <p className="text-lg sm:text-xl text-gray-300 max-w-2xl mx-auto">Ba Telfone sira agora presija utiliza NSPlayer hodi suporta link barak</p>
+        <a href='https://play.google.com/store/apps/details?id=com.genuine.leone' className="text-sm text-gray-400 mt-2">Klik hodi download NSPlayer husi Play Store</a>
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-4 mt-3">
@@ -22,99 +25,49 @@ function App() {
         {/* Card goes Here */}
 
         <Card 
-            title="Fulham vs Liverpool" 
+            title="Arsenal vs Real Madrid" 
             loron={'6 Abril 2025'}
-            oras={"Kick off 22:00 OTL | Komentariu Espanha"}
-            tumbnail={"https://static.standard.co.uk/2022/05/05/11/PLFulhamLiverpool2223v1-1.jpg?width=1200&auto=webp&quality=75"}
-            videoSrc="https://a151aivottlinear-a.akamaihd.net/OTTB/pdx-nitro/live/clients/dash/enc/bmnelo5c7a/out/v1/3ce2cdc4589f46189322bd3717c77957/cenc.mpd" 
+            oras={"Kick off 22:00 OTL | Komentariu Alemao"}
+            tumbnail={"https://assets.khelnow.com/news/uploads/2025/04/Arsenal-v-Real-Madrid.jpg"}
+            videoSrc="https://aivottlinear-a.akamaihd.net/OTTE/DUB/live/dash/enc/k2dcwnlpgr/out/v1/0502dc73a24b43a79c042bf2d14f6b84/cenc.mpd" 
             drmLicenseUrl="https://real-madrid-drm-url"
+            nsurl={"intent://aivottlinear-a.akamaihd.net/OTTE/DUB/live/dash/enc/k2dcwnlpgr/out/v1/0502dc73a24b43a79c042bf2d14f6b84/cenc.mpd%7CUser-Agent=Mozilla/5.0&drmScheme=clearkey&drmLicense=0c900a7eae0097e0977141b68c9bffc4:fa534e6d48eccf905a449051a5e280c8#Intent;scheme=https;type=video/*;package=com.genuine.leone;S.browser_fallback_url=market://details?id=com.genuine.leone.ad;S.title=livetv;end"}
         />
 
         <Card 
-            title="Brentford vs Chelsea" 
+            title="Arsenal vs Real Madrid" 
             loron={'6 Abril 2025'}
             oras={"Kick off 22:00 OTL | Komentariu Ingles"}
-            tumbnail={"https://static.standard.co.uk/2022/05/05/14/PLBrentfordChelsea2223v1.jpg?width=1200&auto=webp&quality=75"}
-            videoSrc="https://cfrt.stream.peacocktv.com/Content/CMAF_OL1-CTR-4s/Live/channel(usa-west)/master.mpd" 
+            tumbnail={"https://assets.khelnow.com/news/uploads/2025/04/Arsenal-v-Real-Madrid.jpg"}
+            videoSrc="https://aivottlinear-a.akamaihd.net/OTTE/DUB/live/dash/enc/k2dcwnlpgr/out/v1/0502dc73a24b43a79c042bf2d14f6b84/cenc.mpd" 
             drmLicenseUrl="https://real-madrid-drm-url"
-        />
-
-
-      <Card 
-            title="Brentford vs Chelsea" 
-            loron={'6 Abril 2025'}
-            oras={"Kick off 22:00 OTL | Komentariu Espanha"}
-            tumbnail={"https://static.standard.co.uk/2022/05/05/14/PLBrentfordChelsea2223v1.jpg?width=1200&auto=webp&quality=75"}
-            videoSrc="https://a151aivottlinear-a.akamaihd.net/OTTB/pdx-nitro/live/clients/dash/enc/xnk4m9bnxt/out/v1/4ced7b7329a54652b9bb0521ed38bd4d/cenc.mpd" 
-            drmLicenseUrl="https://real-madrid-drm-url"
+            nsurl={"intent://tataplay.slivcdn.com/hls/live/2020434/TEN2HD/master.m3u8|User-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.1 Mobile/15E148 Safari/605.1.15/Clipbox+/2.2.8& Vinebre#Intent;scheme=https;type=video/*;package=com.genuine.leone;S.browser_fallback_url=market://details?id=com.genuine.leone.ad;S.title=LIVETV;end"}
         />
 
 
         <Card 
-            title="Sevilla vs Atletico de Madrid" 
-            loron={'6 Abril 2025'}
-            oras={"Kick off 23:15 OTL | Komentariu Ingles"}
-            tumbnail={"https://mrfixitstips.co.uk/app/uploads/2025/04/Sevilla-v-Atletico-Madrid-1038x584.jpg"}
-            videoSrc="https://otte.live.fly.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/6fbnr3ei4b/out/v1/57d2ae96a4cc4230881cd801b389edf6/cenc.mpd" 
-            drmLicenseUrl="https://real-madrid-drm-url"
-        />
-
-        <Card 
-            title="Sevilla vs Atletico de Madrid" 
-            loron={'6 Abril 2025'}
-            oras={"Kick off 23:15 OTL | Komentariu Espanha"}
-            tumbnail={"https://mrfixitstips.co.uk/app/uploads/2025/04/Sevilla-v-Atletico-Madrid-1038x584.jpg"}
-            videoSrc="https://a151aivottlinear-a.akamaihd.net/OTTB/pdx-nitro/live/clients/dash/enc/wjgklbtvhh/out/v1/659736a1e24c40e4865a80ffd75e7de7/cenc.mpd" 
-            drmLicenseUrl="https://real-madrid-drm-url"
-        />
-
-
-      <Card 
-            title="Manchester United vs Manchester City" 
+            title="Bayern vs Inter Milan" 
             loron={'6 Abril 2025'}
             oras={"Kick off 22:00 OTL | Komentariu Ingles"}
-            tumbnail={"https://static.standard.co.uk/2023/08/10/13/PLManUtdManCity23v1.jpg?width=1200&auto=webp&quality=75"}
-            videoSrc="https://cfrt.stream.peacocktv.com/Content/CMAF_OL1-CTR-4s/Live/channel(usa-west)/master.mpd" 
+            tumbnail={"https://cdn.resfu.com/media/img_news/creatividad-de-previa-para-el-partido-de-cuartos-de-final--ida--de-champions-league-2024-25-entre-bayern-munich-e-inter-milan--besoccer.png?size=1000x&lossy=1&ext=jpeg"}
+            videoSrc="https://a151aivottlinear-a.akamaihd.net/OTTB/pdx-nitro/live/clients/dash/enc/wf8usag51e/out/v1/bd3b0c314fff4bb1ab4693358f3cd2d3/cenc.mpd" 
             drmLicenseUrl="https://real-madrid-drm-url"
+            nsurl={"intent://a151aivottlinear-a.akamaihd.net/OTTB/pdx-nitro/live/clients/dash/enc/wf8usag51e/out/v1/bd3b0c314fff4bb1ab4693358f3cd2d3/cenc.mpd%7CUser-Agent=Mozilla/5.0&drmScheme=clearkey&drmLicense=ae26845bd33038a9c0774a0981007294:63ac662dde310cfb4cc6f9b43b34196d#Intent;scheme=https;type=video/*;package=com.genuine.leone;S.browser_fallback_url=market://details?id=com.genuine.leone.ad;S.title=livetv;end"}
+
         />
 
-
-      <Card 
-            title="Manchester United vs Manchester City" 
+        <Card 
+            title="Bayern vs Inter Milan" 
             loron={'6 Abril 2025'}
-            oras={"Kick off 22:00 OTL | Komentariu Espanha"}
-            tumbnail={"https://static.standard.co.uk/2023/08/10/13/PLManUtdManCity23v1.jpg?width=1200&auto=webp&quality=75"}
-            videoSrc="https://a151aivottlinear-a.akamaihd.net/OTTB/pdx-nitro/live/clients/dash/enc/bmnelo5c7a/out/v1/3ce2cdc4589f46189322bd3717c77957/cenc.mpd" 
+            oras={"Kick off 22:00 OTL | Komentariu Ingles"}
+            tumbnail={"https://cdn.resfu.com/media/img_news/creatividad-de-previa-para-el-partido-de-cuartos-de-final--ida--de-champions-league-2024-25-entre-bayern-munich-e-inter-milan--besoccer.png?size=1000x&lossy=1&ext=jpeg"}
+            videoSrc="https://a151aivottlinear-a.akamaihd.net/OTTB/pdx-nitro/live/clients/dash/enc/wf8usag51e/out/v1/bd3b0c314fff4bb1ab4693358f3cd2d3/cenc.mpd" 
             drmLicenseUrl="https://real-madrid-drm-url"
-        />
-
-        <Card 
-            title="Manchester United vs Manchester City" 
-            loron={'6 Abril 2025'}
-            oras={"Kick off 22:00 OTL | Komentariu Arabia"}
-            tumbnail={"https://static.standard.co.uk/2023/08/10/13/PLManUtdManCity23v1.jpg?width=1200&auto=webp&quality=75"}
-            videoSrc="https://wo.cma.footballii.ir/hls2/b1.m3u8" 
-            drmLicenseUrl="https://real-madrid-drm-url"
+            nsurl={"intent://tataplay.slivcdn.com//hls/live/2011747/TEN1HD/master.m3u8|User-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.1 Mobile/15E148 Safari/605.1.15/Clipbox+/2.2.8& Vinebre#Intent;scheme=https;type=video/*;package=com.genuine.leone;S.browser_fallback_url=market://details?id=com.genuine.leone.ad;S.title=LIVETV;end"}
         />
 
 
-        <Card 
-              title="Roma vs Juventus"
-              loron={'6 Abril 2025'}
-              oras={"Kick off 01:00 OTL | Komentariu Inglês"}
-              tumbnail={"https://mrfixitstips.co.uk/app/uploads/2023/02/MRF2023_RomavJuventus-1038x584.jpg"}
-              videoSrc="https://uselector.cdn.intigral-ott.net/ADSP1/ADSP1.isml/manifest.mpd" 
-              drmLicenseUrl="https://real-madrid-drm-url"
-        />
-
-        <Card 
-              title="FC Porto vs Benfica"
-              loron={'7 Abril 2025'}
-              oras={"Kick off 04:30 OTL | Komentariu Arabia"}
-              tumbnail={"https://mrfixitstips.co.uk/app/uploads/2021/12/MRF2021_FCPortovBenfica-1038x519.jpg"}
-              videoSrc="https://ssc-extra-1-enc.edgenextcdn.net/out/v1/647c58693f1d46af92bd7e69f17912cb/index.mpd" 
-              drmLicenseUrl="https://real-madrid-drm-url"
-        />
+        
 
         <Card 
               title="Live Liga Inglesa" 
