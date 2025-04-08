@@ -44,6 +44,17 @@ function App() {
             nsurl={"intent://aivottlinear-a.akamaihd.net/OTTE/DUB/live/dash/enc/k2dcwnlpgr/out/v1/0502dc73a24b43a79c042bf2d14f6b84/cenc.mpd%7CUser-Agent=Mozilla/5.0&drmScheme=clearkey&drmLicense=0c900a7eae0097e0977141b68c9bffc4:fa534e6d48eccf905a449051a5e280c8#Intent;scheme=https;type=video/*;package=com.genuine.leone;S.browser_fallback_url=market://details?id=com.genuine.leone.ad;S.title=livetv;end"}
         />
 
+ <Card 
+            title="Bayern vs Inter Milan" 
+            loron={'6 Abril 2025'}
+            oras={"Kick off 22:00 OTL | Komentariu Ingles"}
+            tumbnail={"https://cdn.resfu.com/media/img_news/creatividad-de-previa-para-el-partido-de-cuartos-de-final--ida--de-champions-league-2024-25-entre-bayern-munich-e-inter-milan--besoccer.png?size=1000x&lossy=1&ext=jpeg"}
+            videoSrc="https://a151aivottlinear-a.akamaihd.net/OTTB/pdx-nitro/live/clients/dash/enc/wf8usag51e/out/v1/bd3b0c314fff4bb1ab4693358f3cd2d3/cenc.mpd" 
+            drmLicenseUrl="https://real-madrid-drm-url"
+            nsurl={"intent://tataplay.slivcdn.com//hls/live/2011747/TEN1HD/master.m3u8|User-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.1 Mobile/15E148 Safari/605.1.15/Clipbox+/2.2.8& Vinebre#Intent;scheme=https;type=video/*;package=com.genuine.leone;S.browser_fallback_url=market://details?id=com.genuine.leone.ad;S.title=LIVETV;end"}
+        />
+
+
         <Card 
             title="Bayern vs Inter Milan" 
             loron={'6 Abril 2025'}
@@ -55,18 +66,6 @@ function App() {
 
         />
 
-        <Card 
-            title="Bayern vs Inter Milan" 
-            loron={'6 Abril 2025'}
-            oras={"Kick off 22:00 OTL | Komentariu Ingles"}
-            tumbnail={"https://cdn.resfu.com/media/img_news/creatividad-de-previa-para-el-partido-de-cuartos-de-final--ida--de-champions-league-2024-25-entre-bayern-munich-e-inter-milan--besoccer.png?size=1000x&lossy=1&ext=jpeg"}
-            videoSrc="https://a151aivottlinear-a.akamaihd.net/OTTB/pdx-nitro/live/clients/dash/enc/wf8usag51e/out/v1/bd3b0c314fff4bb1ab4693358f3cd2d3/cenc.mpd" 
-            drmLicenseUrl="https://real-madrid-drm-url"
-            nsurl={"intent://tataplay.slivcdn.com//hls/live/2011747/TEN1HD/master.m3u8|User-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.1 Mobile/15E148 Safari/605.1.15/Clipbox+/2.2.8& Vinebre#Intent;scheme=https;type=video/*;package=com.genuine.leone;S.browser_fallback_url=market://details?id=com.genuine.leone.ad;S.title=LIVETV;end"}
-        />
-
-
-        
 
         <Card 
               title="Live Liga Inglesa" 
@@ -75,6 +74,7 @@ function App() {
               videoSrc="https://fsly.stream.peacocktv.com/Content/CMAF_CTR-4s/Live/channel(vc1021n07j)/master.mpd" 
               drmLicenseUrl="https://real-madrid-drm-url"
         />
+
 
         <Card 
               title="Live Liga Espanha" 
