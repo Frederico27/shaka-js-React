@@ -16,7 +16,7 @@ function App() {
           <span className="text-blue-400 font-semibold"> Televizaun Android</span> nst!
         </p>
         <br></br>
-        <p className="text-lg sm:text-xl text-gray-300 max-w-2xl mx-auto">Ba Telfone sira agora presija utiliza NSPlayer hodi suporta link barak</p>
+        <p className="text-lg sm:text-xl text-gray-300 max-w-2xl mx-auto">Ba Telfone sira agora presija utiliza Network Stream Video Player (NSPlayer) hodi suporta link barak</p>
         <a href='https://play.google.com/store/apps/details?id=com.genuine.leone' className="text-sm text-gray-400 mt-2">Klik hodi download NSPlayer husi Play Store</a>
       </div>
 
