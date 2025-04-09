@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <div className="text-center py-10 bg-gradient-to-b from-gray-900 to-gray-800 text-white">
-        <h1 className="text-4xl sm:text-5xl-mt-3 font-extrabold tracking-wide mb-4">
+        <h1 className="text-4xl sm:text-5xl sm:mt-3 font-extrabold tracking-wide mb-4">
         Jogu Futebol ne'ebe Live iha <span className="text-blue-400">Ailok TV ⚽</span>
         </h1>
         <p className="text-lg sm:text-xl text-gray-300 max-w-2xl mx-auto">
