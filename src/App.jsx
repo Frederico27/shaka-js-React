@@ -29,7 +29,7 @@ function App() {
             loron={'11 Abril 2025'}
             oras={"Kick off 04:00 OTL | Komentariu Ingles"}
             tumbnail={"https://s.yimg.com/ny/api/res/1.2/DPX4WzBY7_382yM4uB0Rsg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTQyNg--/https://media.zenfs.com/en/playmakerstats_articles_264/a0f42d84bf91480192b4fb0c784f30f8"}
-            videoSrc="https://aivottlinear-a.akamaihd.net/OTTB/pdx-nitro/live/clients/dash/enc/f0qvkrra8j/out/v1/f8fa17f087564f51aa4d5c700be43ec4/cenc.mpd" 
+            videoSrc="https://a151aivottlinear-a.akamaihd.net/OTTB/pdx-nitro/live/clients/dash/enc/wf8usag51e/out/v1/bd3b0c314fff4bb1ab4693358f3cd2d3/cenc.mpd" 
             drmLicenseUrl="https://real-madrid-drm-url"
             // nsurl={"intent://tataplay.slivcdn.com/hls/live/2020434/TEN2HD/master.m3u8|User-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.1 Mobile/15E148 Safari/605.1.15/Clipbox+/2.2.8& Vinebre#Intent;scheme=https;type=video/*;package=com.genuine.leone;S.browser_fallback_url=market://details?id=com.genuine.leone.ad;S.title=LIVETV;end"}
         />
@@ -40,7 +40,7 @@ function App() {
             loron={'11 Abril 2025'}
             oras={"Kick off 04:00 OTL | Komentariu Ingles"}
             tumbnail={"https://s.yimg.com/ny/api/res/1.2/mHAhTACl0xPhKKlTiU52Dg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTQyNg--/https://media.zenfs.com/en/playmakerstats_articles_264/bf2cda336f904205f692ffbef742ae87"}
-            videoSrc="https://a151aivottlinear-a.akamaihd.net/OTTB/pdx-nitro/live/clients/dash/enc/wf8usag51e/out/v1/bd3b0c314fff4bb1ab4693358f3cd2d3/cenc.mpd" 
+            videoSrc="https://aivottlinear-a.akamaihd.net/OTTB/pdx-nitro/live/clients/dash/enc/f0qvkrra8j/out/v1/f8fa17f087564f51aa4d5c700be43ec4/cenc.mpd" 
             drmLicenseUrl="https://real-madrid-drm-url"
             // nsurl={"intent://tataplay.slivcdn.com//hls/live/2011747/TEN1HD/master.m3u8|User-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.1 Mobile/15E148 Safari/605.1.15/Clipbox+/2.2.8& Vinebre#Intent;scheme=https;type=video/*;package=com.genuine.leone;S.browser_fallback_url=market://details?id=com.genuine.leone.ad;S.title=LIVETV;end"}
         />
