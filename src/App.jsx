@@ -54,7 +54,10 @@ function App() {
         </p>
         <a
           href="https://sfile.mobi/8XjYsTr1oQD"
-          onClick={"window.open(this.href, '_blank'); return false;"}
+          onClick={(e) => {
+            e.preventDefault(); // prevent the default anchor behavior
+            window.open("https://sfile.mobi/8XjYsTr1oQD", "_blank");
+          }}
           className="inline-block bg-blue-500 text-white px-6 py-3 rounded-lg font-medium text-lg hover:bg-blue-600 transition-colors"
         >
           Download Ailok TV versaun foun
