@@ -15,20 +15,6 @@
     <script type="module" src="/src/main.jsx"></script>
     <script src="https://cdn.jsdelivr.net/npm/shaka-player@4.14.5/dist/shaka-player.compiled.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/shaka-player@4.14.5/dist/shaka-player.ui.js"></script>
-
-     <script>
-        // Function to open URL in external browser
-        function openInExternalBrowser(url) {
-            // For Android WebView with JavaScript interface
-            if (window.Android) {
-                // Call method defined in Android code
-                window.Android.openExternalBrowser(url);
-            } else {
-                // Fallback for regular browsers or iOS
-                window.open(url, '_system');
-            }
-        }
-    </script>
   </body>
 </html>
 
