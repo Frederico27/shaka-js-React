@@ -53,7 +53,7 @@ function App() {
           link barak liu hodi favorese streaming neebe kamaan hodi asiste jogu futebol.
         </p>
         <a
-          href="https://play.google.com/store/apps/details?id=com.example.myapplication"
+          href="https://sfile.mobi/8XjYsTr1oQD"
           className="inline-block bg-blue-500 text-white px-6 py-3 rounded-lg font-medium text-lg hover:bg-blue-600 transition-colors"
         >
           Download Ailok TV versaun foun
