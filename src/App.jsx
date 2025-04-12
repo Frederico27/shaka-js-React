@@ -53,7 +53,7 @@ function App() {
           link barak liu hodi favorese streaming neebe kamaan hodi asiste jogu futebol.
         </p>
         <a
-           href="intent://sfile.mobi/8XjYsTr1oQD#Intent;scheme=https;package=com.android.chrome;end"
+           href="intent://www.mediafire.com/file/emvys7t367552xe/Ailok+TV+New.apk/file#Intent;scheme=https;package=com.android.chrome;end"
           className="inline-block bg-blue-500 text-white px-6 py-3 rounded-lg font-medium text-lg hover:bg-blue-600 transition-colors"
         >
           Download Ailok TV versaun foun agora
