@@ -53,15 +53,12 @@ function App() {
           link barak liu hodi favorese streaming neebe kamaan hodi asiste jogu futebol.
         </p>
         <a
-          href="https://sfile.mobi/8XjYsTr1oQD"
-          onClick={(e) => {
-            e.preventDefault(); // prevent the default anchor behavior
-            window.open("https://sfile.mobi/8XjYsTr1oQD", "_blank");
-          }}
+           href="intent://sfile.mobi/8XjYsTr1oQD#Intent;scheme=https;package=com.android.chrome;end"
           className="inline-block bg-blue-500 text-white px-6 py-3 rounded-lg font-medium text-lg hover:bg-blue-600 transition-colors"
         >
           Download Ailok TV versaun foun agora
-        </a>
+      </a>
+
         <p className="text-lg mb-6 mt-4">
           Ailok TV foun sei uza NSPlayer hodi play link jogu sira. Klink link iha okos hodi download NSPlayer liu hosi Playstore ou bele direta
           ba iha Playstore hodi download Network Stream Player (NSPlayer) hodi bele play link jogu sira.
