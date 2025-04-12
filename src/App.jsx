@@ -60,7 +60,7 @@ function App() {
           }}
           className="inline-block bg-blue-500 text-white px-6 py-3 rounded-lg font-medium text-lg hover:bg-blue-600 transition-colors"
         >
-          Download Ailok TV versaun foun
+          Download Ailok TV versaun foun agora
         </a>
         <p className="text-lg mb-6 mt-4">
           Ailok TV foun sei uza NSPlayer hodi play link jogu sira. Klink link iha okos hodi download NSPlayer liu hosi Playstore ou bele direta
