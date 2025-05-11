@@ -49,7 +49,6 @@ function App() {
   const MINIMUM_SUPPORTED_VERSION = "1.1.0";
 
   useEffect(() => {
-    checkAppVersion();
   }, []);
 
   //close modal
