@@ -7,8 +7,8 @@ const FeedbackForm = () => {
   const [status, setStatus] = useState('');
   const navigate = useNavigate();
 
-  const BOT_TOKEN = "6251739532:AAEMQYixvojj2PJnuFD338TkIt5lqMvVXXE";
-  const CHAT_ID = '@ailoktv';
+  const BOT_TOKEN = "YOUR TOKEN";
+  const CHAT_ID = 'YOUR CHAT ID';
 
   const handleSubmit = async (e) => {
     e.preventDefault();
