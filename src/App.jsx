@@ -1,8 +1,7 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import "./App.css";
 import Card from "./Card";
 import Footer from "./Footer";
-import Modal from "./Modal";
 
 function App() {
  
