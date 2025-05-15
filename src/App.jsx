@@ -34,6 +34,8 @@ function App() {
         </Modal>
       )} */}
 
+      <Analytics/>
+
       <div className="text-center py-10 bg-gradient-to-b from-gray-900 to-gray-800 text-white">
         <h1 className="text-4xl sm:text-5xl mt-7 font-extrabold tracking-wide mb-4">
           Jogu Futebol ne'ebe Live iha{" "}
