@@ -2,9 +2,9 @@ import React from "react";
 import "./App.css";
 import Card from "./Card";
 import Footer from "./Footer";
+import { Analytics } from "@vercel/analytics/next";
 
 function App() {
- 
   return (
     <>
       {/* Auto-opening modal
@@ -50,18 +50,17 @@ function App() {
           </span>{" "}
           nst!
         </p>
-       
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-4 mt-3">
         {/* Card goes Here */}
 
         <Card
-          title="Barcelona vs Real Madrid"
-          loron={"11 Maiu 2025"}
-          oras={"Kick off 23:15 OTL | Komentariu Ingles"}
+          title="Espanyol vs Barcelona"
+          loron={"16 Maiu 2025"}
+          oras={"Kick off 04:30 OTL | Komentariu Ingles"}
           tumbnail={
-            "https://sportal.betxchange.com/wp-content/uploads/2025/04/El-Clasico.jpg"
+            "https://i.ytimg.com/vi/ainwTsAFO78/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDwwDVpfNMua2U1_7MO_wk9t8Ymkw"
           }
           videoSrc="https://a166aivottlinear-a.akamaihd.net/OTTB/dub-nitro/live/clients/dash/enc/k0duzgfejg/out/v1/70a50b1bda944628b8e7e66ab4069419/cenc.mpd"
           drmLicenseUrl="https://real-madrid-drm-url"
@@ -71,11 +70,11 @@ function App() {
         />
 
         <Card
-          title="Barcelona vs Real Madrid"
-          loron={"11 Maiu 2025"}
-          oras={"Kick off 23:15 OTL | Komentariu Ingles"}
+          title="Espanyol vs Barcelona"
+          loron={"16 Maiu 2025"}
+          oras={"Kick off 04:30 OTL | Komentariu Ingles"}
           tumbnail={
-            "https://sportal.betxchange.com/wp-content/uploads/2025/04/El-Clasico.jpg"
+            "https://i.ytimg.com/vi/ainwTsAFO78/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDwwDVpfNMua2U1_7MO_wk9t8Ymkw"
           }
           vide
           videoSrc="https://otte.live.fly.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/6fbnr3ei4b/out/v1/57d2ae96a4cc4230881cd801b389edf6/cenc.mpd"
