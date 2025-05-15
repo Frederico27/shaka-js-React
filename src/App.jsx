@@ -2,7 +2,6 @@ import React from "react";
 import "./App.css";
 import Card from "./Card";
 import Footer from "./Footer";
-import { Analytics } from "@vercel/analytics/next";
 
 function App() {
   return (
@@ -33,8 +32,6 @@ function App() {
           </p>
         </Modal>
       )} */}
-
-      <Analytics/>
 
       <div className="text-center py-10 bg-gradient-to-b from-gray-900 to-gray-800 text-white">
         <h1 className="text-4xl sm:text-5xl mt-7 font-extrabold tracking-wide mb-4">
