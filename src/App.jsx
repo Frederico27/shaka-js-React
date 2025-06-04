@@ -56,34 +56,33 @@ function App() {
 
 
         <Card
-          title="Aston Villa vs Tottenham Hotspur"
-          loron={"17 Maiu 2025"}
-          oras={"Kick off 03:30 OTL | Komentariu Espanha"}
+          title="Alemanha vs Portugal"
+          loron={"05 Junu 2025"}
+          oras={"Kick off 04:00 OTL | Komentariu Ingles"}
           tumbnail={
-            "https://static.standard.co.uk/2021/08/10/09/PLAstonVillaTottenham2122.jpg?crop=8:5,smart&quality=75&auto=webp&width=1000"
+            "https://images.businessupturn.com/wp-content/uploads/2025/06/Untitled-design-60.jpg"
           }
-          videoSrc="https://a151aivottlinear-a.akamaihd.net/OTTB/pdx-nitro/live/clients/dash/enc/xnk4m9bnxt/out/v1/4ced7b7329a54652b9bb0521ed38bd4d/cenc.mpd"
+          videoSrc="https://aivottlinear-a.akamaihd.net/OTTE/DUB/live/dash/enc/k2dcwnlpgr/out/v1/0502dc73a24b43a79c042bf2d14f6b84/cenc.mpd"
           drmLicenseUrl="https://real-madrid-drm-url"
           nsurl={
-            "intent://a151aivottlinear-a.akamaihd.net/OTTB/pdx-nitro/live/clients/dash/enc/xnk4m9bnxt/out/v1/4ced7b7329a54652b9bb0521ed38bd4d/cenc.mpd|User-Agent=Mozilla/5.0 (Web0S; Linux/SmartTV) AppleCoreMedia/537.36 iPhone (KHTML, like Gecko) Version/4.0 Chromecast/107.0.5304.91 Mobile Safari/537.36&drmScheme=clearkey&drmLicense=0eab5a3f3e3b4ba5d42d40ca30d17571:f3f061ded9b70e8160590d5802ecda6d#Intent;scheme=https;type=video/*;package=com.genuine.leone;S.browser_fallback_url=market://details?id=com.genuine.leone.ad;S.title=LIVETV;end"
+            "intent://tataplay.slivcdn.com/hls/live/2020434/TEN5HD/master.m3u8|User-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.1 Mobile/15E148 Safari/605.1.15/Clipbox+/2.2.8& Vinebre#Intent;scheme=https;type=video/*;package=com.genuine.leone;S.browser_fallback_url=market://details?id=com.genuine.leone.ad;S.title=LIVETV;end"
           }
         />
-
 
         <Card
-          title="Chelsea vs Manchester United"
-          loron={"17 Maiu 2025"}
-          oras={"Kick off 04:15 OTL | Komentariu Espanha"}
+          title="Spanha vs Fransa"
+          loron={"06 Junu 2025"}
+          oras={"Kick off 04:00 OTL | Komentariu Ingles"}
           tumbnail={
-            "https://static.standard.co.uk/2023/08/10/14/PLChelseaManUtd23v1.jpg?crop=8:5,smart&quality=75&auto=webp&width=1000"
+            "https://i.ytimg.com/vi/UKacEJCMMXg/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLB1U8WJtUfd0mHI1oUn1GMLVIgX_g"
           }
-          videoSrc="https://a151aivottlinear-a.akamaihd.net/OTTB/pdx-nitro/live/clients/dash/enc/bmnelo5c7a/out/v1/3ce2cdc4589f46189322bd3717c77957/cenc.mpd"
+          videoSrc="https://aivottlinear-a.akamaihd.net/OTTE/DUB/live/dash/enc/k2dcwnlpgr/out/v1/0502dc73a24b43a79c042bf2d14f6b84/cenc.mpd"
           drmLicenseUrl="https://real-madrid-drm-url"
           nsurl={
-            "intent://a151aivottlinear-a.akamaihd.net/OTTB/pdx-nitro/live/clients/dash/enc/bmnelo5c7a/out/v1/3ce2cdc4589f46189322bd3717c77957/cenc.mpd|User-Agent=Mozilla/5.0 (Web0S; Linux/SmartTV) AppleCoreMedia/537.36 iPhone (KHTML, like Gecko) Version/4.0 Chromecast/107.0.5304.91 Mobile Safari/537.36&drmScheme=clearkey&drmLicense=44dd9cd370b08a868ead115fe84ecfde:bff19ab0a51cf14e848389b152913fd0#Intent;scheme=https;type=video/*;package=com.genuine.leone;S.browser_fallback_url=market://details?id=com.genuine.leone.ad;S.title=LIVETV;end"
+            "intent://tataplay.slivcdn.com/hls/live/2020434/TEN5HD/master.m3u8|User-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.1 Mobile/15E148 Safari/605.1.15/Clipbox+/2.2.8& Vinebre#Intent;scheme=https;type=video/*;package=com.genuine.leone;S.browser_fallback_url=market://details?id=com.genuine.leone.ad;S.title=LIVETV;end"
           }
         />
-        
+
         <Card
           title="Live Liga Inglesa"
           oras={"Kanal Foka ba Jogu sira seluk Liga Inglesa nian"}
