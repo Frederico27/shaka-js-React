@@ -54,32 +54,53 @@ function App() {
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-4 mt-3">
         {/* Card goes Here */}
 
-
         <Card
-          title="Alemanha vs Portugal"
-          loron={"05 Junu 2025"}
-          oras={"Kick off 04:00 OTL | Komentariu Ingles"}
-          tumbnail={
-            "https://images.businessupturn.com/wp-content/uploads/2025/06/Untitled-design-60.jpg"
-          }
-          videoSrc="https://aivottlinear-a.akamaihd.net/OTTE/DUB/live/dash/enc/k2dcwnlpgr/out/v1/0502dc73a24b43a79c042bf2d14f6b84/cenc.mpd"
+          title="Portugal vs Espanha"
+          loron={"10 Junu 2025"}
+          oras={"Kick off 04:00 OTL | Komentariu Portugal"}
+          tumbnail={"https://pbs.twimg.com/media/GstX2eTXsAAlFhQ.jpg:large"}
+          videoSrc="https://pnowlive-a.akamaized.net/live/rtlhd/dash/rtlhd.mpd"
           drmLicenseUrl="https://real-madrid-drm-url"
           nsurl={
-            "intent://tataplay.slivcdn.com/hls/live/2020593/SONYSIXHD/master.m3u8|User-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.1 Mobile/15E148 Safari/605.1.15/Clipbox+/2.2.8& Vinebre#Intent;scheme=https;type=video/*;package=com.genuine.leone;S.browser_fallback_url=market://details?id=com.genuine.leone.ad;S.title=LIVETV;end"
+            "intent://pnowlive-a.akamaized.net/live/rtlhd/dash/rtlhd.mpd|&drmScheme=clearkey&drmLicense=57e48b99f3f6d4f13f5c5afdcca084ca:29379a5e2d3405fad2f5d9cbe92586c3#Intent;scheme=https;type=video/*;package=com.genuine.leone;S.browser_fallback_url=market://details?id=com.genuine.leone.ad;S.title=LIVETV;end"
           }
         />
 
         <Card
-          title="Spanha vs Fransa"
-          loron={"06 Junu 2025"}
-          oras={"Kick off 04:00 OTL | Komentariu Ingles"}
-          tumbnail={
-            "https://i.ytimg.com/vi/UKacEJCMMXg/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLB1U8WJtUfd0mHI1oUn1GMLVIgX_g"
-          }
-          videoSrc="https://aivottlinear-a.akamaihd.net/OTTE/DUB/live/dash/enc/k2dcwnlpgr/out/v1/0502dc73a24b43a79c042bf2d14f6b84/cenc.mpd"
+          title="Portugal vs Espanha"
+          loron={"10 Junu 2025"}
+          oras={"Kick off 04:00 OTL | Komentariu Alemaha"}
+          tumbnail={"https://pbs.twimg.com/media/GstX2eTXsAAlFhQ.jpg:large"}
+          videoSrc="https://pnowlive-a.akamaized.net/live/rtlhd/dash/rtlhd.mpd"
           drmLicenseUrl="https://real-madrid-drm-url"
           nsurl={
-            "intent://tataplay.slivcdn.com/hls/live/2020593/SONYSIXHD/master.m3u8|User-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.1 Mobile/15E148 Safari/605.1.15/Clipbox+/2.2.8& Vinebre#Intent;scheme=https;type=video/*;package=com.genuine.leone;S.browser_fallback_url=market://details?id=com.genuine.leone.ad;S.title=LIVETV;end"
+            "intent://pnowlive-a.akamaized.net/live/rtlhd/dash/rtlhd.mpd|&drmScheme=clearkey&drmLicense=57e48b99f3f6d4f13f5c5afdcca084ca:29379a5e2d3405fad2f5d9cbe92586c3#Intent;scheme=https;type=video/*;package=com.genuine.leone;S.browser_fallback_url=market://details?id=com.genuine.leone.ad;S.title=LIVETV;end"
+          }
+        />
+
+        <Card
+          title="Fransa vs Alemanha"
+          loron={"09 Junu 2025"}
+          oras={"Kick off 22:00 OTL | Komentariu Portugal"}
+          tumbnail={"https://pbs.twimg.com/media/GstX2eTXsAAlFhQ.jpg:large"}
+          videoSrc="https://pnowlive-a.akamaized.net/live/rtlhd/dash/rtlhd.mpd"
+          drmLicenseUrl="https://real-madrid-drm-url"
+          nsurl={
+            "intent://pnowlive-a.akamaized.net/live/rtlhd/dash/rtlhd.mpd|&drmScheme=clearkey&drmLicense=57e48b99f3f6d4f13f5c5afdcca084ca:29379a5e2d3405fad2f5d9cbe92586c3#Intent;scheme=https;type=video/*;package=com.genuine.leone;S.browser_fallback_url=market://details?id=com.genuine.leone.ad;S.title=LIVETV;end"
+          }
+        />
+
+        <Card
+          title="Fransa vs Alemanha"
+          loron={"09 Junu 2025"}
+          oras={"Kick off 22:00 OTL | Komentariu Alemanha"}
+          tumbnail={
+            "https://images2.minutemediacdn.com/image/upload/c_crop,w_1920,h_1080,x_0,y_0/c_fill,w_720,ar_16:9,f_auto,q_auto,g_auto/images/voltaxMediaLibrary/mmsport/si/01jx5heasxq07qjj4gsh.jpg"
+          }
+          videoSrc="https://otttvapi.tls.tl/mobitv-live/1EHIhQ1LyC0oF8uvneSXxw/1749391232000/123/76257020/livetls/pt_sporttv1/chunks.m3u8"
+          drmLicenseUrl="https://real-madrid-drm-url"
+          nsurl={
+            "intent://otttvapi.tls.tl/mobitv-live/1EHIhQ1LyC0oF8uvneSXxw/1749391232000/123/76257020/livetls/pt_sporttv1/chunks.m3u8|User-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.1 Mobile/15E148 Safari/605.1.15/Clipbox+/2.2.8& Vinebre#Intent;scheme=https;type=video/*;package=com.genuine.leone;S.browser_fallback_url=market://details?id=com.genuine.leone.ad;S.title=LIVETV;end"
           }
         />
 
