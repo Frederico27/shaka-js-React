@@ -59,7 +59,7 @@ function App() {
           loron={"10 Junu 2025"}
           oras={"Kick off 04:00 OTL | Komentariu Portugal"}
           tumbnail={"https://pbs.twimg.com/media/GstX2eTXsAAlFhQ.jpg:large"}
-          videoSrc="https://pnowlive-a.akamaized.net/live/rtlhd/dash/rtlhd.mpd"
+          videoSrc="https://otttvapi.tls.tl/mobitv-live/1EHIhQ1LyC0oF8uvneSXxw/1749391232000/123/76257020/livetls/pt_sporttv1/chunks.m3u8"
           drmLicenseUrl="https://real-madrid-drm-url"
           nsurl={
             "intent://otttvapi.tls.tl/mobitv-live/1EHIhQ1LyC0oF8uvneSXxw/1749391232000/123/76257020/livetls/pt_sporttv1/chunks.m3u8|User-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.1 Mobile/15E148 Safari/605.1.15/Clipbox+/2.2.8& Vinebre#Intent;scheme=https;type=video/*;package=com.genuine.leone;S.browser_fallback_url=market://details?id=com.genuine.leone.ad;S.title=LIVETV;end"
@@ -96,7 +96,7 @@ function App() {
           title="Fransa vs Alemanha"
           loron={"09 Junu 2025"}
           oras={"Kick off 22:00 OTL | Komentariu Alemanha"}
-          tumbnail={"https://pbs.twimg.com/media/GstX2eTXsAAlFhQ.jpg:large"}
+          tumbnail={"https://images2.minutemediacdn.com/image/upload/c_crop,w_1920,h_1080,x_0,y_0/c_fill,w_720,ar_16:9,f_auto,q_auto,g_auto/images/voltaxMediaLibrary/mmsport/si/01jx5heasxq07qjj4gsh.jpg"}
           videoSrc="https://pnowlive-a.akamaized.net/live/rtlhd/dash/rtlhd.mpd"
           drmLicenseUrl="https://real-madrid-drm-url"
           nsurl={
