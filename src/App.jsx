@@ -55,38 +55,74 @@ function App() {
         {/* Card goes Here */}
 
         <Card
-          title="Portugal vs Espanha"
-          loron={"10 Junu 2025"}
-          oras={"Kick off 04:00 OTL | Komentariu Ingles"}
-          tumbnail={"https://pbs.twimg.com/media/GstX2eTXsAAlFhQ.jpg:large"}
-          videoSrc="https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/3b7qwiqzk3/out/v1/9f14895badca43e6a716db021dcd0c31/cenc.mpd"
+          title="Kopa Mundial Klubu "
+          loron={"14 Junu - 13 Jullu 2025"}
+          oras={"Haree orariu kompleta iha Google"}
+          tumbnail={
+            "https://cdn.24h.com.vn/upload/2-2025/images/2025-06-03/5-dieu-hap-dan-nhat-o-FIFA-Club-World-Cup-2025-khong-the-bo-qua-anhdaidien-1748879515-560-width740height495-1748925602-66-width740height495.jpg"
+          }
+          videoSrc="https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash-sd/enc/rkhugudynd/out/v1/f7763e695c3b469594ed89fa163ebf0c/cenc-sd.mpd"
           drmLicenseUrl="https://real-madrid-drm-url"
           nsurl={
-            "intent://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/3b7qwiqzk3/out/v1/9f14895badca43e6a716db021dcd0c31/cenc.mpd%7CUser-Agent=Mozilla/5.0&drmScheme=clearkey&drmLicense=dc69b6159a0f9f0a4e03b3ff91cbacd5:d0dcbcd7723bc40df0bf34c9c092d51f#Intent;scheme=https;type=video/*;package=com.genuine.leone;S.browser_fallback_url=market://details?id=com.genuine.leone.ad;S.title=LIVETV;end"
+            "intent://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash-sd/enc/rkhugudynd/out/v1/f7763e695c3b469594ed89fa163ebf0c/cenc-sd.mpd%7CUser-Agent=Mozilla/5.0&drmScheme=clearkey&drmLicense=eaea45512d137def15b209a089cafd14:8d42db746ed0c4df61729b0d68d42bd7#Intent;scheme=https;type=video/*;package=com.genuine.leone;S.browser_fallback_url=market://details?id=com.genuine.leone.ad;S.title=LIVETV;end"
           }
         />
 
         <Card
-          title="Portugal vs Espanha"
-          loron={"10 Junu 2025"}
-          oras={"Kick off 04:00 OTL | Komentariu Alemaha"}
-          tumbnail={"https://pbs.twimg.com/media/GstX2eTXsAAlFhQ.jpg:large"}
-          videoSrc="https://pnowlive-a.akamaized.net/live/rtlhd/dash/rtlhd.mpd"
+          title="Kanal 1 UEFA EURO U21 "
+          loron={"11-28 Junu 2025"}
+          oras={"Haree orariu kompleta iha Google"}
+          tumbnail={
+            "https://pbs.twimg.com/profile_images/1830558187436625920/Rjp4pvzP_400x400.jpg"
+          }
+          videoSrc="https://wp1-anp-g05060506-ufa-nl.t1.prd.dyncdn.dmdsdp.com/live/disk1/NL_000094_019321/go-dash-hdready-avc/NL_000094_019321.mpd"
           drmLicenseUrl="https://real-madrid-drm-url"
           nsurl={
-            "intent://pnowlive-a.akamaized.net/live/rtlhd/dash/rtlhd.mpd|&drmScheme=clearkey&drmLicense=57e48b99f3f6d4f13f5c5afdcca084ca:29379a5e2d3405fad2f5d9cbe92586c3#Intent;scheme=https;type=video/*;package=com.genuine.leone;S.browser_fallback_url=market://details?id=com.genuine.leone.ad;S.title=LIVETV;end"
+            "intent://wp1-anp-g05060506-ufa-nl.t1.prd.dyncdn.dmdsdp.com/live/disk1/NL_000094_019321/go-dash-hdready-avc/NL_000094_019321.mpd?&|User-Agent=Mozilla/5.0 (Web0S; Linux/SmartTV) AppleCoreMedia/537.36 iPhone (KHTML, like Gecko) Version/4.0 Chromecast/107.0.5304.91 Mobile Safari/537.36&drmScheme=clearkey&drmLicense=16bf72dc22743d929c4318e193408373:eae51a1e3904124963074cbf432c7c8e#Intent;scheme=https;type=video/*;package=com.genuine.leone;S.browser_fallback_url=market://details?id=com.genuine.leone.ad;S.title=LIVETV;end"
           }
         />
 
         <Card
-          title="Portugal vs Espanha"
-          loron={"10 Junu 2025"}
-          oras={"Kick off 04:00 OTL | Komentariu Portugal"}
-          tumbnail={"https://pbs.twimg.com/media/GstX2eTXsAAlFhQ.jpg:large"}
-          videoSrc="https://otttvapi.tls.tl/mobitv-live/1EHIhQ1LyC0oF8uvneSXxw/1749391232000/123/76257020/livetls/pt_sporttv1/chunks.m3u8"
+          title="Kanal 2 UEFA EURO U21"
+          loron={"11-28 Junu 2025"}
+          oras={"Haree orariu kompleta iha Google"}
+          tumbnail={
+            "https://pbs.twimg.com/profile_images/1830558187436625920/Rjp4pvzP_400x400.jpg"
+          }
+          videoSrc="https://da-d436234620010b88000103020000000000000008.id.cdn.upcbroadband.com/wp/wp2-anp-g05060506-hzn-nl.t1.prd.dyncdn.dmdsdp.com/live/disk1/NL_000095_019371/go-dash-hdready-avc/NL_000095_019371.mpd"
           drmLicenseUrl="https://real-madrid-drm-url"
           nsurl={
-            "intent://otttvapi.tls.tl/mobitv-live/1EHIhQ1LyC0oF8uvneSXxw/1749391232000/123/76257020/livetls/pt_sporttv1/chunks.m3u8|User-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.1 Mobile/15E148 Safari/605.1.15/Clipbox+/2.2.8& Vinebre#Intent;scheme=https;type=video/*;package=com.genuine.leone;S.browser_fallback_url=market://details?id=com.genuine.leone.ad;S.title=LIVETV;end"
+            "intent://da-d436234620010b88000103020000000000000008.id.cdn.upcbroadband.com/wp/wp2-anp-g05060506-hzn-nl.t1.prd.dyncdn.dmdsdp.com/live/disk1/NL_000095_019371/go-dash-hdready-avc/NL_000095_019371.mpd?p=web|User-Agent=Mozilla/5.0 (Web0S; Linux/SmartTV) AppleCoreMedia/537.36 iPhone (KHTML, like Gecko) Version/4.0 Chromecast/107.0.5304.91 Mobile Safari/537.36&drmScheme=clearkey&drmLicense=16bf72dc22743d929c4318e193408373:eae51a1e3904124963074cbf432c7c8e#Intent;scheme=https;type=video/*;package=com.genuine.leone;S.browser_fallback_url=market://details?id=com.genuine.leone.ad;S.title=LIVETV;end"
+          }
+        />
+
+        <Card
+          title="Kanal 3 UEFA EURO U21 (Portugal)"
+          loron={"11-28 Junu 2025"}
+          oras={"Haree orariu kompleta iha Google"}
+          tumbnail={
+            "https://pbs.twimg.com/profile_images/1830558187436625920/Rjp4pvzP_400x400.jpg"
+          }
+          videoSrc="https://otttvapi.tls.tl/mobitv-live/pM0Hv03B355npsnmgagIcg/1750166585000/123/76257020/livetls/pt_sporttv1/chunks.m3u8"
+          drmLicenseUrl="https://real-madrid-drm-url"
+          nsurl={
+            "intent://otttvapi.tls.tl/mobitv-live/pM0Hv03B355npsnmgagIcg/1750166585000/123/76257020/livetls/pt_sporttv1/chunks.m3u8|&User-Agent=Mozilla/5.0 (Linux; Android 11; SM-A307GN Build/RP1A.200720.012; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/107.0.5304.91 Mobile Safari/537.36 Vinebre#Intent;scheme=https;type=video/*;package=com.genuine.leone;S.browser_fallback_url=market://details?id=com.genuine.leone.ad;S.title=LIVETV;end"
+          }
+        />
+
+        <Card
+          title="Real Madrid TV"
+          loron={"Loron-Loron"}
+          oras={
+            "Live Direta preparasaun no jogu tuan Real Madrid no jogu pramusim sira"
+          }
+          tumbnail={
+            "https://www.sportyou.es/blog/wp-content/uploads/2015/09/realmadridtv.jpg"
+          }
+          videoSrc="https://rmtv.akamaized.net/hls/live/2043154/rmtv-en-web/master.m3u8"
+          drmLicenseUrl="https://real-madrid-drm-url"
+          nsurl={
+            "intent://rmtv.akamaized.net/hls/live/2043154/rmtv-en-web/master.m3u8|&User-Agent=Mozilla/5.0 (Linux; Android 11; SM-A307GN Build/RP1A.200720.012; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/107.0.5304.91 Mobile Safari/537.36 Vinebre#Intent;scheme=https;type=video/*;package=com.genuine.leone;S.browser_fallback_url=market://details?id=com.genuine.leone.ad;S.title=LIVETV;end"
           }
         />
 
