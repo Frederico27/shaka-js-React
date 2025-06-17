@@ -68,17 +68,17 @@ function App() {
           }
         />
 
-        <Card
+<Card
           title="Kanal 1 UEFA EURO U21 "
           loron={"11-28 Junu 2025"}
           oras={"Haree orariu kompleta iha Google"}
           tumbnail={
             "https://pbs.twimg.com/profile_images/1830558187436625920/Rjp4pvzP_400x400.jpg"
           }
-          videoSrc="https://wp1-anp-g05060506-ufa-nl.t1.prd.dyncdn.dmdsdp.com/live/disk1/NL_000094_019321/go-dash-hdready-avc/NL_000094_019321.mpd"
+          videoSrc="https://wo.cma.footballii.ir/hls2/b1.m3u8"
           drmLicenseUrl="https://real-madrid-drm-url"
           nsurl={
-            "intent://wp1-anp-g05060506-ufa-nl.t1.prd.dyncdn.dmdsdp.com/live/disk1/NL_000094_019321/go-dash-hdready-avc/NL_000094_019321.mpd?&|User-Agent=Mozilla/5.0 (Web0S; Linux/SmartTV) AppleCoreMedia/537.36 iPhone (KHTML, like Gecko) Version/4.0 Chromecast/107.0.5304.91 Mobile Safari/537.36&drmScheme=clearkey&drmLicense=16bf72dc22743d929c4318e193408373:eae51a1e3904124963074cbf432c7c8e#Intent;scheme=https;type=video/*;package=com.genuine.leone;S.browser_fallback_url=market://details?id=com.genuine.leone.ad;S.title=LIVETV;end"
+            "intent://wo.cma.footballii.ir/hls2/b1.m3u8|&User-Agent=Mozilla/5.0 (Linux; Android 11; SM-A307GN Build/RP1A.200720.012; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/107.0.5304.91 Mobile Safari/537.36 Vinebre#Intent;scheme=https;type=video/*;package=com.genuine.leone;S.browser_fallback_url=market://details?id=com.genuine.leone.ad;S.title=LIVETV;end"
           }
         />
 
@@ -89,10 +89,10 @@ function App() {
           tumbnail={
             "https://pbs.twimg.com/profile_images/1830558187436625920/Rjp4pvzP_400x400.jpg"
           }
-          videoSrc="https://da-d436234620010b88000103020000000000000008.id.cdn.upcbroadband.com/wp/wp2-anp-g05060506-hzn-nl.t1.prd.dyncdn.dmdsdp.com/live/disk1/NL_000095_019371/go-dash-hdready-avc/NL_000095_019371.mpd"
+          videoSrc="https://wo.cma.footballii.ir/hls2/b2.m3u8"
           drmLicenseUrl="https://real-madrid-drm-url"
           nsurl={
-            "intent://da-d436234620010b88000103020000000000000008.id.cdn.upcbroadband.com/wp/wp2-anp-g05060506-hzn-nl.t1.prd.dyncdn.dmdsdp.com/live/disk1/NL_000095_019371/go-dash-hdready-avc/NL_000095_019371.mpd?p=web|User-Agent=Mozilla/5.0 (Web0S; Linux/SmartTV) AppleCoreMedia/537.36 iPhone (KHTML, like Gecko) Version/4.0 Chromecast/107.0.5304.91 Mobile Safari/537.36&drmScheme=clearkey&drmLicense=16bf72dc22743d929c4318e193408373:eae51a1e3904124963074cbf432c7c8e#Intent;scheme=https;type=video/*;package=com.genuine.leone;S.browser_fallback_url=market://details?id=com.genuine.leone.ad;S.title=LIVETV;end"
+            "intent://wo.cma.footballii.ir/hls2/b2.m3u8|&User-Agent=Mozilla/5.0 (Linux; Android 11; SM-A307GN Build/RP1A.200720.012; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/107.0.5304.91 Mobile Safari/537.36 Vinebre#Intent;scheme=https;type=video/*;package=com.genuine.leone;S.browser_fallback_url=market://details?id=com.genuine.leone.ad;S.title=LIVETV;end"
           }
         />
 
