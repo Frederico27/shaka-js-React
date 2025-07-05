@@ -68,47 +68,21 @@ function App() {
           }
         />
 
-<Card
-          title="Kanal 1 UEFA EURO U21 "
-          loron={"11-28 Junu 2025"}
+        <Card
+          title="Kopa Mundial Klubu (Ingles) "
+          loron={"14 Junu - 13 Jullu 2025"}
           oras={"Haree orariu kompleta iha Google"}
           tumbnail={
-            "https://pbs.twimg.com/profile_images/1830558187436625920/Rjp4pvzP_400x400.jpg"
+            "https://cdn.24h.com.vn/upload/2-2025/images/2025-06-03/5-dieu-hap-dan-nhat-o-FIFA-Club-World-Cup-2025-khong-the-bo-qua-anhdaidien-1748879515-560-width740height495-1748925602-66-width740height495.jpg"
           }
-          videoSrc="https://wo.cma.footballii.ir/hls2/b1.m3u8"
+         videoSrc="https://dai.google.com/linear/dash/pb/event/--eiLpe9T1up8K2gdAhJnA/stream/b052bca0-40ba-421b-b59d-8c66dedd195a:TPE2/manifest.mpd"
           drmLicenseUrl="https://real-madrid-drm-url"
           nsurl={
-            "intent://wo.cma.footballii.ir/hls2/b1.m3u8|&User-Agent=Mozilla/5.0 (Linux; Android 11; SM-A307GN Build/RP1A.200720.012; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/107.0.5304.91 Mobile Safari/537.36 Vinebre#Intent;scheme=https;type=video/*;package=com.genuine.leone;S.browser_fallback_url=market://details?id=com.genuine.leone.ad;S.title=LIVETV;end"
+            "intent://dcb-ac-live.cdn.indazn.com/7hpehv3ghmi41khihuzlcvf03/mob/stream.m3u8?channel=2650&outlet=dazn-row&plang=en|&User-Agent=default#Intent;scheme=https;type=video/*;package=com.genuine.leone;S.browser_fallback_url=market://details?id=com.genuine.leone.ad;S.title=LIVETV;end"
           }
         />
 
-        <Card
-          title="Kanal 2 UEFA EURO U21"
-          loron={"11-28 Junu 2025"}
-          oras={"Haree orariu kompleta iha Google"}
-          tumbnail={
-            "https://pbs.twimg.com/profile_images/1830558187436625920/Rjp4pvzP_400x400.jpg"
-          }
-          videoSrc="https://wo.cma.footballii.ir/hls2/b2.m3u8"
-          drmLicenseUrl="https://real-madrid-drm-url"
-          nsurl={
-            "intent://wo.cma.footballii.ir/hls2/b2.m3u8|&User-Agent=Mozilla/5.0 (Linux; Android 11; SM-A307GN Build/RP1A.200720.012; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/107.0.5304.91 Mobile Safari/537.36 Vinebre#Intent;scheme=https;type=video/*;package=com.genuine.leone;S.browser_fallback_url=market://details?id=com.genuine.leone.ad;S.title=LIVETV;end"
-          }
-        />
-
-        <Card
-          title="Kanal 3 UEFA EURO U21 (Portugal)"
-          loron={"11-28 Junu 2025"}
-          oras={"Haree orariu kompleta iha Google"}
-          tumbnail={
-            "https://pbs.twimg.com/profile_images/1830558187436625920/Rjp4pvzP_400x400.jpg"
-          }
-          videoSrc="https://otttvapi.tls.tl/mobitv-live/pM0Hv03B355npsnmgagIcg/1750166585000/123/76257020/livetls/pt_sporttv1/chunks.m3u8"
-          drmLicenseUrl="https://real-madrid-drm-url"
-          nsurl={
-            "intent://otttvapi.tls.tl/mobitv-live/pM0Hv03B355npsnmgagIcg/1750166585000/123/76257020/livetls/pt_sporttv1/chunks.m3u8|&User-Agent=Mozilla/5.0 (Linux; Android 11; SM-A307GN Build/RP1A.200720.012; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/107.0.5304.91 Mobile Safari/537.36 Vinebre#Intent;scheme=https;type=video/*;package=com.genuine.leone;S.browser_fallback_url=market://details?id=com.genuine.leone.ad;S.title=LIVETV;end"
-          }
-        />
+      
 
         <Card
           title="Real Madrid TV"
