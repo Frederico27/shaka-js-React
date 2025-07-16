@@ -51,7 +51,8 @@ const ShakaPlayer = ({ src, drmLicenseUrl, drmKeySystem = 'com.widevine.alpha' }
         clearKeys: {
                   // 'd84c325f36814f39bbe59080272b10c3':'550727de4c96ef1ecff874905493580f',
                   '16bf72dc22743d929c4318e193408373':'eae51a1e3904124963074cbf432c7c8e',
-                  'eaea45512d137def15b209a089cafd14':'8d42db746ed0c4df61729b0d68d42bd7',
+                  // 'eaea45512d137def15b209a089cafd14':'8d42db746ed0c4df61729b0d68d42bd7',
+                  'af717f0a52834020a08b9ac454089b74':'b1dcfea43ffe8735b3f2cc7c3ac8c24e',
                   // '57e48b99f3f6d4f13f5c5afdcca084ca':'29379a5e2d3405fad2f5d9cbe92586c3',
                   // '44dd9cd370b08a868ead115fe84ecfde':'bff19ab0a51cf14e848389b152913fd0',
                   // '78ab64fa90f137a697743b5dc27b2f96':'de4d31c7fc6005ede28abab2a0720a9f',

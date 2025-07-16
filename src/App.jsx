@@ -54,35 +54,37 @@ function App() {
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-4 mt-3">
         {/* Card goes Here */}
 
+
+
         <Card
-          title="Kopa Mundial Klubu "
-          loron={"14 Junu - 13 Jullu 2025"}
+          title="AFF ASEAN U23 Indonezia (Ingles)"
+          loron={"15 Jullu - 29 Jullu 2025"}
           oras={"Haree orariu kompleta iha Google"}
           tumbnail={
-            "https://cdn.24h.com.vn/upload/2-2025/images/2025-06-03/5-dieu-hap-dan-nhat-o-FIFA-Club-World-Cup-2025-khong-the-bo-qua-anhdaidien-1748879515-560-width740height495-1748925602-66-width740height495.jpg"
+            "https://i.ytimg.com/vi/6BguoM3Q_YQ/hq720.jpg?sqp=-oaymwE7CK4FEIIDSFryq4qpAy0IARUAAAAAGAElAADIQj0AgKJD8AEB-AH-CYAC0AWKAgwIABABGBMgMyh_MA8=&rs=AOn4CLDhimAdRzTjo2_7VeL0y5x4n8LGKw"
           }
-          videoSrc="https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash-sd/enc/rkhugudynd/out/v1/f7763e695c3b469594ed89fa163ebf0c/cenc-sd.mpd"
+         videoSrc="https://tglmp04.akamaized.net/out/v1/a8aad32fefc2454f81a9998934b2a93f/manifest.mpd"
           drmLicenseUrl="https://real-madrid-drm-url"
           nsurl={
-            "intent://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash-sd/enc/rkhugudynd/out/v1/f7763e695c3b469594ed89fa163ebf0c/cenc-sd.mpd%7CUser-Agent=Mozilla/5.0&drmScheme=clearkey&drmLicense=eaea45512d137def15b209a089cafd14:8d42db746ed0c4df61729b0d68d42bd7#Intent;scheme=https;type=video/*;package=com.genuine.leone;S.browser_fallback_url=market://details?id=com.genuine.leone.ad;S.title=LIVETV;end"
+            "intent://tglmp04.akamaized.net/out/v1/a8aad32fefc2454f81a9998934b2a93f/manifest.mpd|User-Agent=Mozilla/5.0&drmScheme=clearkey&drmLicense=af717f0a52834020a08b9ac454089b74:b1dcfea43ffe8735b3f2cc7c3ac8c24e#Intent;scheme=https;type=video/*;package=com.genuine.leone;S.browser_fallback_url=market://details?id=com.genuine.leone.ad;S.title=LIVETV;end"
           }
         />
 
         <Card
-          title="Kopa Mundial Klubu (Ingles) "
-          loron={"14 Junu - 13 Jullu 2025"}
+          title="AFF ASEAN U23 Indonezia (Bahasa)"
+          loron={"15 Jullu - 29 Jullu 2025"}
           oras={"Haree orariu kompleta iha Google"}
           tumbnail={
-            "https://cdn.24h.com.vn/upload/2-2025/images/2025-06-03/5-dieu-hap-dan-nhat-o-FIFA-Club-World-Cup-2025-khong-the-bo-qua-anhdaidien-1748879515-560-width740height495-1748925602-66-width740height495.jpg"
+            "https://i.ytimg.com/vi/6BguoM3Q_YQ/hq720.jpg?sqp=-oaymwE7CK4FEIIDSFryq4qpAy0IARUAAAAAGAElAADIQj0AgKJD8AEB-AH-CYAC0AWKAgwIABABGBMgMyh_MA8=&rs=AOn4CLDhimAdRzTjo2_7VeL0y5x4n8LGKw"
           }
-         videoSrc="https://dai.google.com/linear/dash/pb/event/--eiLpe9T1up8K2gdAhJnA/stream/b052bca0-40ba-421b-b59d-8c66dedd195a:TPE2/manifest.mpd"
+          videoSrc="https://tglmp04.akamaized.net/out/v1/a8aad32fefc2454f81a9998934b2a93f/manifest.mpd"
           drmLicenseUrl="https://real-madrid-drm-url"
           nsurl={
-            "intent://dcb-ac-live.cdn.indazn.com/7hpehv3ghmi41khihuzlcvf03/mob/stream.m3u8?channel=2650&outlet=dazn-row&plang=en|&User-Agent=default#Intent;scheme=https;type=video/*;package=com.genuine.leone;S.browser_fallback_url=market://details?id=com.genuine.leone.ad;S.title=LIVETV;end"
+            "intent://rogeproject.my.id/kode/prodeso/dash.php/.mpd?id=18037|X-Forwarded-For=160.191.180.215&drmScheme=clearkey&drmLicense=0cadd460065c412ec1422700b68fb7dc:b4760d7e983c89e471628a0741749db1#Intent;scheme=https;type=video/*;package=com.genuine.leone;S.browser_fallback_url=market://details?id=com.genuine.leone.ad;S.title=LIVETV;end"
           }
         />
 
-      
+
 
         <Card
           title="Real Madrid TV"
