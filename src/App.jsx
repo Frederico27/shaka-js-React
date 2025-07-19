@@ -54,7 +54,14 @@ function App() {
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-4 mt-3">
         {/* Card goes Here */}
 
-
+        <Card
+          title="Timor Leste U16 vs Portugal U16 Jogu CPLP"
+          loron={"19 Jullu 2025"}
+          oras={"Haree orariu kompleta iha Google"}
+          tumbnail={"https://en.tatoli.tl/wp-content/uploads/2024/04/cplp.jpg"}
+          videoSrc="https://www.youtube.com/live/PP2qqH9khmA?si=tv-Qpt2FYXWO54O7"
+          drmLicenseUrl="https://real-madrid-drm-url"
+        />
 
         <Card
           title="AFF ASEAN U23 Indonezia (Ingles)"
@@ -63,27 +70,12 @@ function App() {
           tumbnail={
             "https://i.ytimg.com/vi/6BguoM3Q_YQ/hq720.jpg?sqp=-oaymwE7CK4FEIIDSFryq4qpAy0IARUAAAAAGAElAADIQj0AgKJD8AEB-AH-CYAC0AWKAgwIABABGBMgMyh_MA8=&rs=AOn4CLDhimAdRzTjo2_7VeL0y5x4n8LGKw"
           }
-         videoSrc="https://tglmp04.akamaized.net/out/v1/a8aad32fefc2454f81a9998934b2a93f/manifest.mpd"
+          videoSrc="https://tglmp04.akamaized.net/out/v1/400fc0702dee453bb33ebcc29466e58a/manifest.mpd"
           drmLicenseUrl="https://real-madrid-drm-url"
           nsurl={
-            "intent://tglmp04.akamaized.net/out/v1/a8aad32fefc2454f81a9998934b2a93f/manifest.mpd|User-Agent=Mozilla/5.0&drmScheme=clearkey&drmLicense=af717f0a52834020a08b9ac454089b74:b1dcfea43ffe8735b3f2cc7c3ac8c24e#Intent;scheme=https;type=video/*;package=com.genuine.leone;S.browser_fallback_url=market://details?id=com.genuine.leone.ad;S.title=LIVETV;end"
+            "intent://tglmp04.akamaized.net/out/v1/400fc0702dee453bb33ebcc29466e58a/manifest.mpd|drmScheme=clearkey&drmLicense=91b9592c819246c68b3b08a1fe08ba22:fa0d80dfd865b34077bae44cd4a0c5e6#Intent;scheme=https;type=video/*;package=com.genuine.leone;S.browser_fallback_url=market://details?id=com.genuine.leone.ad;S.title=LIVETV;end"
           }
         />
-
-        <Card
-          title="AFF ASEAN U23 Indonezia (Bahasa)"
-          loron={"15 Jullu - 29 Jullu 2025"}
-          oras={"Haree orariu kompleta iha Google"}
-          tumbnail={
-            "https://i.ytimg.com/vi/6BguoM3Q_YQ/hq720.jpg?sqp=-oaymwE7CK4FEIIDSFryq4qpAy0IARUAAAAAGAElAADIQj0AgKJD8AEB-AH-CYAC0AWKAgwIABABGBMgMyh_MA8=&rs=AOn4CLDhimAdRzTjo2_7VeL0y5x4n8LGKw"
-          }
-          videoSrc="https://tglmp04.akamaized.net/out/v1/a8aad32fefc2454f81a9998934b2a93f/manifest.mpd"
-          drmLicenseUrl="https://real-madrid-drm-url"
-          nsurl={
-            "intent://rogeproject.my.id/kode/prodeso/dash.php/.mpd?id=18037|X-Forwarded-For=160.191.180.215&drmScheme=clearkey&drmLicense=0cadd460065c412ec1422700b68fb7dc:b4760d7e983c89e471628a0741749db1#Intent;scheme=https;type=video/*;package=com.genuine.leone;S.browser_fallback_url=market://details?id=com.genuine.leone.ad;S.title=LIVETV;end"
-          }
-        />
-
 
 
         <Card
