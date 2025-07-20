@@ -59,7 +59,7 @@ function App() {
           loron={"19 Jullu 2025"}
           oras={"Haree orariu kompleta iha Google"}
           tumbnail={"https://ringmagazine.com/_next/image?url=https%3A%2F%2Fthankful-crystal-c5f59294d4.media.strapiapp.com%2F07_19_PPV_1920x1080_web_e59418f263.jpg&w=1920&q=75"}
-          videoSrc="https://clive.malisresidences.com:1935/rhm_hdtv/_definst_/smil:RHMHDTV.smil/playlist.m3u8"
+          videoSrc="http://clive.malisresidences.com:1935/rhm_hdtv/_definst_/smil:RHMHDTV.smil/playlist.m3u8"
           drmLicenseUrl="https://real-madrid-drm-url"
         />
 
