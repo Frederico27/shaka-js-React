@@ -61,9 +61,6 @@ function App() {
           tumbnail={"https://ringmagazine.com/_next/image?url=https%3A%2F%2Fthankful-crystal-c5f59294d4.media.strapiapp.com%2F07_19_PPV_1920x1080_web_e59418f263.jpg&w=1920&q=75"}
           videoSrc="http://clive.malisresidences.com:1935/rhm_hdtv/_definst_/smil:RHMHDTV.smil/playlist.m3u8"
           drmLicenseUrl="https://real-madrid-drm-url"
-          nsurl={
-            "intent://clive.malisresidences.com:1935/rhm_hdtv/_definst_/smil:RHMHDTV.smil/playlist.m3u8|User-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.1 Mobile/15E148 Safari/605.1.15/Clipbox+/2.2.8& Vinebre#Intent;scheme=https;type=video/*;package=com.genuine.leone;S.browser_fallback_url=market://details?id=com.genuine.leone.ad;S.title=LIVETV;end"
-          }
         />
 
         <Card
