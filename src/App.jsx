@@ -55,7 +55,7 @@ function App() {
         {/* Card goes Here */}
 
         <Card
-          title="Real Madrid vs Barcelon"
+          title="Real Madrid vs Barcelona"
           loron={"27 Outubro 2025"}
           oras={"Haree orariu kompleta iha Google"}
           tumbnail={"https://www.fcbarcelona.com/photo-resources/2025/10/22/ece9a1c7-7658-4dcc-9ed6-30849beb77da/TIMEZONES-escuts-MADRID.jpg?width=1200&height=750"}
@@ -64,7 +64,7 @@ function App() {
         />
 
           <Card
-          title="Real Madrid vs Barcelon"
+          title="Real Madrid vs Barcelona"
           loron={"27 Outubro 2025"}
           oras={"Haree orariu kompleta iha Google"}
           tumbnail={"https://www.fcbarcelona.com/photo-resources/2025/10/22/ece9a1c7-7658-4dcc-9ed6-30849beb77da/TIMEZONES-escuts-MADRID.jpg?width=1200&height=750"}
