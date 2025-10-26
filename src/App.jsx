@@ -55,27 +55,23 @@ function App() {
         {/* Card goes Here */}
 
         <Card
-          title="Boxing Many Pacquiao vs Barrios"
-          loron={"19 Jullu 2025"}
+          title="Real Madrid vs Barcelon"
+          loron={"27 Outubro 2025"}
           oras={"Haree orariu kompleta iha Google"}
-          tumbnail={"https://ringmagazine.com/_next/image?url=https%3A%2F%2Fthankful-crystal-c5f59294d4.media.strapiapp.com%2F07_19_PPV_1920x1080_web_e59418f263.jpg&w=1920&q=75"}
-          videoSrc="https://qp-pldt-live-grp-07-prod.akamaized.net/out/u/cg_onesports_hd.mpd"
+          tumbnail={"https://www.fcbarcelona.com/photo-resources/2025/10/22/ece9a1c7-7658-4dcc-9ed6-30849beb77da/TIMEZONES-escuts-MADRID.jpg?width=1200&height=750"}
+          videoSrc="https://unifi-live11.secureswiftcontent.com/UnifiHD/live13.mpd"
           drmLicenseUrl="https://real-madrid-drm-url"
         />
 
-        <Card
-          title="AFF ASEAN U23 Indonezia (Ingles)"
-          loron={"15 Jullu - 29 Jullu 2025"}
+          <Card
+          title="Real Madrid vs Barcelon"
+          loron={"27 Outubro 2025"}
           oras={"Haree orariu kompleta iha Google"}
-          tumbnail={
-            "https://i.ytimg.com/vi/6BguoM3Q_YQ/hq720.jpg?sqp=-oaymwE7CK4FEIIDSFryq4qpAy0IARUAAAAAGAElAADIQj0AgKJD8AEB-AH-CYAC0AWKAgwIABABGBMgMyh_MA8=&rs=AOn4CLDhimAdRzTjo2_7VeL0y5x4n8LGKw"
-          }
-          videoSrc="https://tglmp04.akamaized.net/out/v1/400fc0702dee453bb33ebcc29466e58a/manifest.mpd"
+          tumbnail={"https://www.fcbarcelona.com/photo-resources/2025/10/22/ece9a1c7-7658-4dcc-9ed6-30849beb77da/TIMEZONES-escuts-MADRID.jpg?width=1200&height=750"}
+          videoSrc="https://a166aivottlinear-a.akamaihd.net/OTTB/dub-nitro/live/clients/dash/enc/k0duzgfejg/out/v1/70a50b1bda944628b8e7e66ab4069419/cenc.mpd"
           drmLicenseUrl="https://real-madrid-drm-url"
-          nsurl={
-            "intent://tglmp04.akamaized.net/out/v1/400fc0702dee453bb33ebcc29466e58a/manifest.mpd|drmScheme=clearkey&drmLicense=91b9592c819246c68b3b08a1fe08ba22:fa0d80dfd865b34077bae44cd4a0c5e6#Intent;scheme=https;type=video/*;package=com.genuine.leone;S.browser_fallback_url=market://details?id=com.genuine.leone.ad;S.title=LIVETV;end"
-          }
         />
+
 
 
         <Card
