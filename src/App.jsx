@@ -56,7 +56,7 @@ function App() {
 
         <Card
           title="Real Madrid vs Barcelona"
-          loron={"27 Outubro 2025"}
+          loron={"12 Janeiro 2026"}
           oras={"Haree orariu kompleta iha Google"}
           tumbnail={"https://www.fcbarcelona.com/photo-resources/2025/10/22/ece9a1c7-7658-4dcc-9ed6-30849beb77da/TIMEZONES-escuts-MADRID.jpg?width=1200&height=750"}
           videoSrc="https://otte.live.fly.ww.aiv-cdn.net/syd-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd"
@@ -65,7 +65,7 @@ function App() {
 
           <Card
           title="Real Madrid vs Barcelona"
-          loron={"27 Outubro 2025"}
+          loron={"12 Janeiro 2026"}
           oras={"Haree orariu kompleta iha Google"}
           tumbnail={"https://www.fcbarcelona.com/photo-resources/2025/10/22/ece9a1c7-7658-4dcc-9ed6-30849beb77da/TIMEZONES-escuts-MADRID.jpg?width=1200&height=750"}
           videoSrc="https://otte.live.fly.ww.aiv-cdn.net/syd-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd"
