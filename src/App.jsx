@@ -59,7 +59,7 @@ function App() {
           loron={"27 Outubro 2025"}
           oras={"Haree orariu kompleta iha Google"}
           tumbnail={"https://www.fcbarcelona.com/photo-resources/2025/10/22/ece9a1c7-7658-4dcc-9ed6-30849beb77da/TIMEZONES-escuts-MADRID.jpg?width=1200&height=750"}
-          videoSrc="https://unifi-live11.secureswiftcontent.com/UnifiHD/live13.mpd"
+          videoSrc="https://otte.live.fly.ww.aiv-cdn.net/syd-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd"
           drmLicenseUrl="https://real-madrid-drm-url"
         />
 
@@ -68,7 +68,7 @@ function App() {
           loron={"27 Outubro 2025"}
           oras={"Haree orariu kompleta iha Google"}
           tumbnail={"https://www.fcbarcelona.com/photo-resources/2025/10/22/ece9a1c7-7658-4dcc-9ed6-30849beb77da/TIMEZONES-escuts-MADRID.jpg?width=1200&height=750"}
-          videoSrc="https://a166aivottlinear-a.akamaihd.net/OTTB/dub-nitro/live/clients/dash/enc/k0duzgfejg/out/v1/70a50b1bda944628b8e7e66ab4069419/cenc.mpd"
+          videoSrc="https://otte.live.fly.ww.aiv-cdn.net/syd-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd"
           drmLicenseUrl="https://real-madrid-drm-url"
         />
 
