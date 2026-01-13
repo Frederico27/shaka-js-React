@@ -7,20 +7,24 @@ const ShakaPlayer = ({ src, drmLicenseUrl, drmKeySystem = 'com.widevine.alpha' }
 
   useEffect(() => {
     // Ensure Shaka Player and browser compatibility
-    if (!shaka.Player.isBrowserSupported()) {
-      console.error('Browser not supported by Shaka Player!');
-      shaka.polyfill.installAll();
+    if (!window.shaka) {
+      console.error('Shaka Player is not loaded.');
       return;
     }
 
-    shaka.polyfill.installAll();
+    window.shaka.polyfill.installAll();
+
+    if (!window.shaka.Player.isBrowserSupported()) {
+      console.error('Browser not supported by Shaka Player!');
+      return;
+    }
 
     const video = videoRef.current;
-    const player = new shaka.Player(video);
+    const player = new window.shaka.Player(video);
     playerRef.current = player;
 
     // Set up Shaka UI
-    const ui = new shaka.ui.Overlay(player, video.parentElement, video);
+    const ui = new window.shaka.ui.Overlay(player, video.parentElement, video);
     uiRef.current = ui;
 
     // Configure the UI to include quality control
