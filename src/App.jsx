@@ -7,11 +7,19 @@ function App() {
   const [events, setEvents] = useState([]);
   const [loading, setLoading] = useState(true);
 
+  const convertToHttps = (url) => {
+    if (!url) return url;
+    return url.replace(/^http:\/\//i, 'https://');
+  };
+
   useEffect(() => {
     const fetchData = async () => {
       try {
+        const apiUrl = window.location.hostname === 'localhost' 
+          ? 'http://localhost:3000/proxy'
+          : '/api/proxy';
         const res = await fetch(
-          "http://localhost:3000/proxy?url=" +
+          apiUrl + "?url=" +
             encodeURIComponent("https://ailok-tv-restful-api.vercel.app/api/eventsWithRelations")
         );
         const data = await res.json();
@@ -140,8 +148,8 @@ function App() {
                   loron={formatDate(event.time_start)}
                   oras={formatTime(event.time_start)}
                   tumbnail={event.image_url}
-                  videoSrc={event.channel.url}
-                  drmLicenseUrl={event.channel.license}
+                  videoSrc={convertToHttps(event.channel.url)}
+                  drmLicenseUrl={convertToHttps(event.channel.license)}
                   drmScheme={event.channel.scheme}
                 />
               );
