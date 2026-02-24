@@ -1,4 +1,4 @@
-export default function handler(req, res) {
+export default async function handler(req, res) {
   const targetUrl = req.query.url;
   
   if (!targetUrl) {
@@ -13,17 +13,25 @@ export default function handler(req, res) {
     return res.status(200).end();
   }
 
-  fetch(targetUrl, {
-    headers: {
-      'X-Forwarded-For': '13.106.174.0',
-    }
-  })
-    .then(response => {
-      res.status(response.status);
-      response.body.pipe(res);
-    })
-    .catch(err => {
-      console.error('Proxy error:', err);
-      res.status(500).send('Proxy error.');
+  try {
+    const response = await fetch(targetUrl, {
+      headers: {
+        'X-Forwarded-For': '13.106.174.0',
+      }
     });
+
+    res.status(response.status);
+    
+    response.headers.forEach((value, key) => {
+      if (key !== 'content-encoding') {
+        res.setHeader(key, value);
+      }
+    });
+
+    const data = await response.json();
+    res.json(data);
+  } catch (err) {
+    console.error('Proxy error:', err);
+    res.status(500).json({ error: 'Proxy error.' });
+  }
 }
