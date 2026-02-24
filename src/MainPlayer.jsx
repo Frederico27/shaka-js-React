@@ -6,8 +6,8 @@ import Footer from "./Footer.jsx";
 function MainPlayer() {
   const location = useLocation();
   const navigate = useNavigate();
-  const { videoSrc, drmLicenseUrl, title, subtitle } = location.state || {}; // Prevent errors
-  const [isLoading, setIsLoading] = useState(false); // Track loading state
+  const { videoSrc, drmLicenseUrl, title, subtitle, drmScheme } = location.state || {};
+  const [isLoading, setIsLoading] = useState(false);
 
   // Function to check if the video source is a YouTube link
   const isYouTubeLink = (url) => {
@@ -112,7 +112,7 @@ function MainPlayer() {
                 ></iframe>
               </div>
             ) : (
-              <ShakaPlayer src={videoSrc} drmLicenseUrl={drmLicenseUrl} />
+              <ShakaPlayer src={videoSrc} drmLicenseUrl={drmLicenseUrl} drmScheme={drmScheme} />
             )
           ) : (
             <p className="text-red-500 text-lg font-semibold">

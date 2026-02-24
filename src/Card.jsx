@@ -10,6 +10,7 @@ function Card({
   oras,
   loron,
   tumbnail,
+  drmScheme,
 }) {
   const navigate = useNavigate();
 
@@ -21,6 +22,7 @@ function Card({
         nsurl,
         title,
         subtitle,
+        drmScheme,
       },
     });
   };
