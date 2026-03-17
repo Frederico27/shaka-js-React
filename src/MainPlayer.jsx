@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useMemo, useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import ShakaPlayer from "./ShakaPlayer.jsx";
 import Footer from "./Footer.jsx";
@@ -8,6 +8,35 @@ function MainPlayer() {
   const navigate = useNavigate();
   const { videoSrc, drmLicenseUrl, title, subtitle, drmScheme } = location.state || {};
   const [isLoading, setIsLoading] = useState(false);
+  const [customReferer, setCustomReferer] = useState(
+    () => localStorage.getItem("custom_proxy_referer") || ""
+  );
+  const [customOrigin, setCustomOrigin] = useState(
+    () => localStorage.getItem("custom_proxy_origin") || ""
+  );
+
+  const hasCustomHeaders = useMemo(() => {
+    return Boolean(customReferer.trim() || customOrigin.trim());
+  }, [customReferer, customOrigin]);
+
+  const handleRefererChange = (event) => {
+    const value = event.target.value;
+    setCustomReferer(value);
+    localStorage.setItem("custom_proxy_referer", value);
+  };
+
+  const handleOriginChange = (event) => {
+    const value = event.target.value;
+    setCustomOrigin(value);
+    localStorage.setItem("custom_proxy_origin", value);
+  };
+
+  const clearHeaderOverrides = () => {
+    setCustomReferer("");
+    setCustomOrigin("");
+    localStorage.removeItem("custom_proxy_referer");
+    localStorage.removeItem("custom_proxy_origin");
+  };
 
   // Function to check if the video source is a YouTube link
   const isYouTubeLink = (url) => {
@@ -112,7 +141,57 @@ function MainPlayer() {
                 ></iframe>
               </div>
             ) : (
-              <ShakaPlayer src={videoSrc} drmLicenseUrl={drmLicenseUrl} drmScheme={drmScheme} />
+              <>
+                <div className="mb-4 rounded-lg border border-slate-700 bg-slate-800/80 p-4">
+                  <h3 className="mb-3 text-base font-semibold text-white">Proxy Headers</h3>
+                  <div className="grid grid-cols-1 gap-3 md:grid-cols-2">
+                    <label className="text-sm text-slate-200">
+                      Referer
+                      <input
+                        type="text"
+                        value={customReferer}
+                        onChange={handleRefererChange}
+                        placeholder="https://example.com/"
+                        className="mt-1 w-full rounded-md border border-slate-600 bg-slate-900 px-3 py-2 text-sm text-white outline-none focus:border-blue-400"
+                      />
+                    </label>
+
+                    <label className="text-sm text-slate-200">
+                      Origin
+                      <input
+                        type="text"
+                        value={customOrigin}
+                        onChange={handleOriginChange}
+                        placeholder="https://example.com"
+                        className="mt-1 w-full rounded-md border border-slate-600 bg-slate-900 px-3 py-2 text-sm text-white outline-none focus:border-blue-400"
+                      />
+                    </label>
+                  </div>
+
+                  <div className="mt-3 flex flex-wrap items-center gap-3">
+                    <button
+                      type="button"
+                      onClick={clearHeaderOverrides}
+                      className="rounded-md border border-slate-500 px-3 py-2 text-sm text-slate-200 hover:border-slate-300 hover:text-white"
+                    >
+                      Clear custom headers
+                    </button>
+                    <p className="text-xs text-slate-300">
+                      {hasCustomHeaders
+                        ? "Custom proxy headers are active."
+                        : "Using .env defaults (if configured)."}
+                    </p>
+                  </div>
+                </div>
+
+                <ShakaPlayer
+                  src={videoSrc}
+                  drmLicenseUrl={drmLicenseUrl}
+                  drmScheme={drmScheme}
+                  proxyReferer={customReferer.trim()}
+                  proxyOrigin={customOrigin.trim()}
+                />
+              </>
             )
           ) : (
             <p className="text-red-500 text-lg font-semibold">

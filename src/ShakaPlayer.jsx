@@ -1,6 +1,12 @@
 import React, { useEffect, useRef } from 'react';
 
-const ShakaPlayer = ({ src, drmLicenseUrl, drmScheme = 'widevine' }) => {
+const ShakaPlayer = ({
+  src,
+  drmLicenseUrl,
+  drmScheme = 'widevine',
+  proxyReferer = '',
+  proxyOrigin = '',
+}) => {
   const videoRef = useRef(null);
   const playerRef = useRef(null);
   const uiRef = useRef(null);
@@ -22,6 +28,46 @@ const ShakaPlayer = ({ src, drmLicenseUrl, drmScheme = 'widevine' }) => {
     const video = videoRef.current;
     const player = new window.shaka.Player(video);
     playerRef.current = player;
+
+    const proxyBase = window.location.hostname === 'localhost'
+      ? 'http://localhost:3000/proxy'
+      : '/api/proxy';
+
+    const customReferer = proxyReferer || import.meta.env.VITE_PROXY_REFERER;
+    const customOrigin = proxyOrigin || import.meta.env.VITE_PROXY_ORIGIN;
+    const hostWithoutHeaderOverrides = 'unifi-live2.secureswiftcontent.com';
+
+    const networkingEngine = player.getNetworkingEngine();
+    if (networkingEngine) {
+      networkingEngine.registerRequestFilter((type, request) => {
+        const RequestType = window.shaka.net.NetworkingEngine.RequestType;
+        const shouldProxy = type === RequestType.MANIFEST || type === RequestType.SEGMENT;
+
+        if (!shouldProxy) {
+          return;
+        }
+
+        request.uris = request.uris.map((uri) => {
+          if (uri.includes('/api/proxy?url=') || uri.includes('localhost:3000/proxy?url=')) {
+            return uri;
+          }
+
+          const proxiedUrl = new URL(proxyBase, window.location.origin);
+          proxiedUrl.searchParams.set('url', uri);
+          const disableCustomHeaders = uri.includes(hostWithoutHeaderOverrides);
+
+          if (customReferer && !disableCustomHeaders) {
+            proxiedUrl.searchParams.set('referer', customReferer);
+          }
+
+          if (customOrigin && !disableCustomHeaders) {
+            proxiedUrl.searchParams.set('origin', customOrigin);
+          }
+
+          return proxiedUrl.toString();
+        });
+      });
+    }
 
     // Set up Shaka UI
     const ui = new window.shaka.ui.Overlay(player, video.parentElement, video);
@@ -91,7 +137,7 @@ const ShakaPlayer = ({ src, drmLicenseUrl, drmScheme = 'widevine' }) => {
         uiRef.current.destroy();
       }
     };
-  }, [src, drmLicenseUrl, drmScheme]);
+  }, [src, drmLicenseUrl, drmScheme, proxyReferer, proxyOrigin]);
 
   return (
     <div style={{ width: '100%', maxWidth: '100%' }}>

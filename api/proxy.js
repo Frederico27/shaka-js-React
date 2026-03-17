@@ -1,5 +1,9 @@
+import { Readable } from 'node:stream';
+
 export default async function handler(req, res) {
   const targetUrl = req.query.url;
+  const customReferer = req.query.referer || req.query.referrer;
+  const customOrigin = req.query.origin;
   
   if (!targetUrl) {
     return res.status(400).send('Missing `url` query parameter.');
@@ -14,22 +18,36 @@ export default async function handler(req, res) {
   }
 
   try {
+    const upstreamHeaders = {
+      'X-Forwarded-For': '13.106.174.0',
+    };
+
+    if (customReferer) {
+      upstreamHeaders.Referer = customReferer;
+    }
+
+    if (customOrigin) {
+      upstreamHeaders.Origin = customOrigin;
+    }
+
     const response = await fetch(targetUrl, {
-      headers: {
-        'X-Forwarded-For': '13.106.174.0',
-      }
+      headers: upstreamHeaders,
     });
 
     res.status(response.status);
-    
+
     response.headers.forEach((value, key) => {
-      if (key !== 'content-encoding') {
+      const lowerKey = key.toLowerCase();
+      if (!['connection', 'transfer-encoding', 'keep-alive'].includes(lowerKey)) {
         res.setHeader(key, value);
       }
     });
 
-    const data = await response.json();
-    res.json(data);
+    if (!response.body) {
+      return res.end();
+    }
+
+    Readable.fromWeb(response.body).pipe(res);
   } catch (err) {
     console.error('Proxy error:', err);
     res.status(500).json({ error: 'Proxy error.' });
